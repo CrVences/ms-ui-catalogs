@@ -1,0 +1,7402 @@
+{
+  "catalogs": {
+    "pageNumber": 1,
+    "pageSize": 5,
+    "totalElements": 22,
+    "totalPages": 3,
+    "data": [
+      {
+        "id": "001",
+        "name": "Ligas de pago",
+        "registers": "100",
+        "products": "Financiera",
+        "creationDate": "2024-04-11",
+        "lastModificationDate": "2024-03-08",
+        "status": "activo",
+        "phone": "+525555555555",
+        "description": "Ligas de pago",
+        "productos": "Financiera, Gerencia, Operaciones"
+      },
+      {
+        "id": "002",
+        "name": "Modelo de operación",
+        "registers": "1200",
+        "products": "Todos",
+        "creationDate": "2024-09-23",
+        "lastModificationDate": "2024-01-19",
+        "status": "activo",
+        "phone": "+525542310055",
+        "description": "Modelo de operación",
+        "productos": "Financiera, Gerencia"
+      },
+      {
+        "id": "003",
+        "name": "Antifraude",
+        "registers": "1500",
+        "products": "Todos",
+        "creationDate": "2024-12-17",
+        "lastModificationDate": "2024-07-03",
+        "status": "activo",
+        "phone": "+154422313",
+        "description": "Antifraude",
+        "productos": "Financiera, Operaciones"
+      },
+      {
+        "id": "004",
+        "name": "Codigos postales",
+        "registers": "800",
+        "products": "Banca",
+        "creationDate": "2023-01-02",
+        "lastModificationDate": "2024-02-15",
+        "status": "activo",
+        "phone": "+525502443210",
+        "description": "Codigos postales",
+        "productos": "Financiera, Gerencia, Operaciones"
+      },
+      {
+        "id": "005",
+        "name": "Riesgos",
+        "registers": "500",
+        "products": "Financiera",
+        "creationDate": "2023-05-14",
+        "lastModificationDate": "2024-06-05",
+        "status": "activo",
+        "phone": "+525555555555",
+        "description": "Riesgos",
+        "productos": "Financiera, Operaciones"
+      },
+      {
+        "id": "006",
+        "name": "Giro comercial",
+        "registers": "200",
+        "products": "Comercial",
+        "creationDate": "2023-03-29",
+        "lastModificationDate": "2024-04-17",
+        "status": "activo",
+        "phone": "+525542310055",
+        "description": "Giro comercial",
+        "productos": "Financiera"
+      },
+      {
+        "id": "007",
+        "name": "Ventas por internet",
+        "registers": "6560",
+        "products": "Comercial",
+        "creationDate": "2024-10-01",
+        "lastModificationDate": "2024-10-20",
+        "status": "activo",
+        "phone": "+525539008733",
+        "description": "Venta comercial",
+        "productos": "Financiera, Gerencia, Operaciones"
+      }
+    ],
+    "headers": {
+      "id": "ID",
+      "name": "Nombre",
+      "registers": "Registros",
+      "products": "Productos o servicios",
+      "creationDate": "Creación",
+      "lastModificationDate": "Última actualización",
+      "status": "Estatus",
+      "phone": "Teléfono",
+      "description": "Descripción",
+      "productos": "Productos"
+    }
+  },
+  "catalogsById": {
+    "pageNumber": 1,
+    "pageSize": 5,
+    "totalElements": 22,
+    "totalPages": 3,
+    "data": [
+      {
+        "id": "001",
+        "data": [
+          {
+            "id": "001AA01",
+            "startDate": "05/10/2024",
+            "reference": "prueba",
+            "concept": "Suite Jr - Prueba",
+            "status": "Pagado",
+            "import": "$123.00 MXN",
+            "user": "Casimerito",
+            "branch": "City Express Cuautitlán",
+            "templateForm": [
+              {
+                "value": "05/10/2024 02:01 AM",
+                "key": "startDate",
+                "label": "Fecha registro",
+                "required": false,
+                "min": null,
+                "max": null,
+                "email": false,
+                "regExp": null,
+                "controlType": "text",
+                "type": "text",
+                "options": [],
+                "disabled": false
+              },
+              {
+                "value": "prueba",
+                "key": "reference",
+                "label": "Referencia",
+                "required": true,
+                "min": 5,
+                "max": 8,
+                "email": false,
+                "regExp": null,
+                "controlType": "text",
+                "type": "text",
+                "options": [],
+                "disabled": false
+              },
+              {
+                "value": "Suite Jr - Prueba",
+                "key": "concept",
+                "label": "Concepto",
+                "required": true,
+                "min": 5,
+                "max": 3,
+                "email": false,
+                "regExp": null,
+                "controlType": "text",
+                "type": "text",
+                "options": [],
+                "disabled": false
+              },
+              {
+                "value": 1,
+                "key": "status",
+                "label": "Estatus",
+                "required": true,
+                "min": null,
+                "max": null,
+                "email": false,
+                "regExp": null,
+                "controlType": "dropdown",
+                "type": "dropdown",
+                "disabled": false,
+                "options": [
+                  {
+                    "label": "Pagado",
+                    "value": 1
+                  },
+                  {
+                    "label": "Cancelado",
+                    "value": 2
+                  },
+                  {
+                    "label": "Revisión",
+                    "value": 3
+                  }
+                ]
+              },
+              {
+                "value": "$123.00MXN",
+                "key": "import",
+                "label": "Importe",
+                "required": true,
+                "min": null,
+                "max": null,
+                "email": false,
+                "regExp": null,
+                "controlType": "text",
+                "type": "text",
+                "options": [],
+                "disabled": false
+              },
+              {
+                "value": "Casimerito",
+                "key": "user",
+                "label": "Usuario",
+                "required": true,
+                "min": null,
+                "max": null,
+                "email": false,
+                "regExp": null,
+                "controlType": "text",
+                "type": "text",
+                "options": [],
+                "disabled": false
+              },
+              {
+                "value": "City Express Cuautitlán",
+                "key": "branch",
+                "label": "Sucursal",
+                "required": true,
+                "min": null,
+                "max": null,
+                "email": false,
+                "regExp": null,
+                "controlType": "text",
+                "type": "text",
+                "options": [],
+                "disabled": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "002",
+        "data": [
+          {
+            "id": "001BB01",
+            "reference": "Prueba de modelo",
+            "concept": "Modelo de operación",
+            "status": "Revisión",
+            "import": "$13.00 MXN",
+            "templateForm": [
+              {
+                "value": "Prueba",
+                "key": "reference",
+                "label": "Referencia",
+                "required": true,
+                "min": 5,
+                "max": 8,
+                "email": false,
+                "regExp": null,
+                "controlType": "text",
+                "type": "text",
+                "options": [],
+                "disabled": false
+              },
+              {
+                "value": "Modelo de operación",
+                "key": "concept",
+                "label": "Concepto",
+                "required": true,
+                "min": 5,
+                "max": 3,
+                "email": false,
+                "regExp": null,
+                "controlType": "text",
+                "type": "text",
+                "options": [],
+                "disabled": false
+              },
+              {
+                "value": 3,
+                "key": "status",
+                "label": "Estatus",
+                "required": true,
+                "min": null,
+                "max": null,
+                "email": false,
+                "regExp": null,
+                "controlType": "dropdown",
+                "type": "dropdown",
+                "disabled": false,
+                "options": [
+                  {
+                    "label": "Pagado",
+                    "value": 1
+                  },
+                  {
+                    "label": "Cancelado",
+                    "value": 2
+                  },
+                  {
+                    "label": "Revisión",
+                    "value": 3
+                  }
+                ]
+              },
+              {
+                "value": "$13.00",
+                "key": "import",
+                "label": "Importe",
+                "required": true,
+                "min": null,
+                "max": null,
+                "email": false,
+                "regExp": null,
+                "controlType": "text",
+                "type": "text",
+                "options": [],
+                "disabled": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "003",
+        "data": [
+          {
+            "id": "001BC01",
+            "reference": "Fraude TDC",
+            "concept": "Fraude a BBVA",
+            "status": "Revisión",
+            "import": "$1203.00 MXN",
+            "user": "Cristobal Casas",
+            "templateForm": [
+              {
+                "value": "Prueba",
+                "key": "reference",
+                "label": "Referencia",
+                "required": true,
+                "min": 5,
+                "max": 8,
+                "email": false,
+                "regExp": null,
+                "controlType": "text",
+                "type": "text",
+                "options": [],
+                "disabled": false
+              },
+              {
+                "value": "Fraude a BBVA",
+                "key": "concept",
+                "label": "Concepto",
+                "required": true,
+                "min": 5,
+                "max": 3,
+                "email": false,
+                "regExp": null,
+                "controlType": "text",
+                "type": "text",
+                "options": [],
+                "disabled": false
+              },
+              {
+                "value": 3,
+                "key": "status",
+                "label": "Estatus",
+                "required": true,
+                "min": null,
+                "max": null,
+                "email": false,
+                "regExp": null,
+                "controlType": "dropdown",
+                "type": "dropdown",
+                "disabled": false,
+                "options": [
+                  {
+                    "label": "Pagado",
+                    "value": 1
+                  },
+                  {
+                    "label": "Cancelado",
+                    "value": 2
+                  },
+                  {
+                    "label": "Revisión",
+                    "value": 3
+                  }
+                ]
+              },
+              {
+                "value": "$1203.00 MXN",
+                "key": "import",
+                "label": "Importe",
+                "required": true,
+                "min": null,
+                "max": null,
+                "email": false,
+                "regExp": null,
+                "controlType": "text",
+                "type": "text",
+                "options": [],
+                "disabled": false
+              },
+              {
+                "value": "Cristobal Casas",
+                "key": "user",
+                "label": "Usuario",
+                "required": true,
+                "min": null,
+                "max": null,
+                "email": false,
+                "regExp": null,
+                "controlType": "text",
+                "type": "text",
+                "options": [],
+                "disabled": false
+              }
+            ]
+          },
+          {
+            "id": "001BC02",
+            "reference": "Fraude TDC",
+            "concept": "Fraude a Santander",
+            "status": "Revisión",
+            "import": "$2400.00 MXN",
+            "user": "Alonso Buendía",
+            "templateForm": [
+              {
+                "value": "Prueba",
+                "key": "reference",
+                "label": "Referencia",
+                "required": true,
+                "min": 5,
+                "max": 8,
+                "email": false,
+                "regExp": null,
+                "controlType": "text",
+                "type": "text",
+                "options": [],
+                "disabled": false
+              },
+              {
+                "value": "Fraude a Santander",
+                "key": "concept",
+                "label": "Concepto",
+                "required": true,
+                "min": 5,
+                "max": 3,
+                "email": false,
+                "regExp": null,
+                "controlType": "text",
+                "type": "text",
+                "options": [],
+                "disabled": false
+              },
+              {
+                "value": 2,
+                "key": "status",
+                "label": "Estatus",
+                "required": true,
+                "min": null,
+                "max": null,
+                "email": false,
+                "regExp": null,
+                "controlType": "dropdown",
+                "type": "dropdown",
+                "disabled": false,
+                "options": [
+                  {
+                    "label": "Pagado",
+                    "value": 1
+                  },
+                  {
+                    "label": "Cancelado",
+                    "value": 2
+                  },
+                  {
+                    "label": "Revisión",
+                    "value": 3
+                  }
+                ]
+              },
+              {
+                "value": "$2400.00 MXN",
+                "key": "import",
+                "label": "Importe",
+                "required": true,
+                "min": null,
+                "max": null,
+                "email": false,
+                "regExp": null,
+                "controlType": "text",
+                "type": "text",
+                "options": [],
+                "disabled": false
+              },
+              {
+                "value": "Alonso Buendía",
+                "key": "user",
+                "label": "Usuario",
+                "required": true,
+                "min": null,
+                "max": null,
+                "email": false,
+                "regExp": null,
+                "controlType": "text",
+                "type": "text",
+                "options": [],
+                "disabled": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "004",
+        "data": [
+          {
+            "id": "001AB01",
+            "code": "001",
+            "zipCode": "01101",
+            "settlement": "Estadio Universidad",
+            "typeSettlement": "Colonia",
+            "municipality": "Ciudad CU",
+            "state": "Ciudad de México",
+            "city": "Ciudad de México",
+            "zone": "Urbano",
+            "column": "09",
+            "templateForm": [
+              {
+                "value": "001",
+                "key": "code",
+                "label": "Código",
+                "required": false,
+                "min": null,
+                "max": null,
+                "email": false,
+                "regExp": null,
+                "controlType": "text",
+                "type": "text",
+                "options": [],
+                "disabled": false
+              },
+              {
+                "value": "01102",
+                "key": "zipCode",
+                "label": "Código postal",
+                "required": true,
+                "min": 5,
+                "max": 8,
+                "email": false,
+                "regExp": null,
+                "controlType": "number",
+                "type": "number",
+                "options": [],
+                "disabled": false
+              },
+              {
+                "value": "Estadio Universidad",
+                "key": "settlement",
+                "label": "Asentamiento",
+                "required": true,
+                "min": 5,
+                "max": 3,
+                "email": false,
+                "regExp": null,
+                "controlType": "text",
+                "type": "text",
+                "options": [],
+                "disabled": false
+              },
+              {
+                "value": 1,
+                "key": "typeSettlement",
+                "label": "Tipo de asentamiento",
+                "required": true,
+                "min": null,
+                "max": null,
+                "email": false,
+                "regExp": null,
+                "controlType": "dropdown",
+                "type": "dropdown",
+                "disabled": false,
+                "options": [
+                  {
+                    "label": "Colonia",
+                    "value": 1
+                  },
+                  {
+                    "label": "Fraccionamiento",
+                    "value": 2
+                  },
+                  {
+                    "label": "Unidad habitacional",
+                    "value": 3
+                  },
+                  {
+                    "label": "Pueblo",
+                    "value": 4
+                  },
+                  {
+                    "label": "Rancho",
+                    "value": 5
+                  }
+                ]
+              },
+              {
+                "value": "Ciudad CU",
+                "key": "municipality",
+                "label": "Municipio",
+                "required": true,
+                "min": null,
+                "max": null,
+                "email": false,
+                "regExp": null,
+                "controlType": "text",
+                "type": "text",
+                "options": [],
+                "disabled": false
+              },
+              {
+                "value": 1,
+                "key": "state",
+                "label": "Estado",
+                "required": true,
+                "min": null,
+                "max": null,
+                "email": false,
+                "regExp": null,
+                "controlType": "dropdown",
+                "type": "dropdown",
+                "options": [
+                  {
+                    "label": "Ciudad de México",
+                    "value": 1
+                  },
+                  {
+                    "label": "Rome",
+                    "value": 2
+                  },
+                  {
+                    "label": "London",
+                    "value": 3
+                  },
+                  {
+                    "label": "Istanbul",
+                    "value": 4
+                  },
+                  {
+                    "label": "Paris",
+                    "value": 5
+                  }
+                ],
+                "disabled": false
+              },
+              {
+                "value": 1,
+                "key": "city",
+                "label": "Ciudad",
+                "required": true,
+                "min": null,
+                "max": null,
+                "email": false,
+                "regExp": null,
+                "controlType": "dropdown",
+                "type": "dropdown",
+                "options": [
+                  {
+                    "label": "Ciudad de México",
+                    "value": 1
+                  },
+                  {
+                    "label": "Rome",
+                    "value": 2
+                  },
+                  {
+                    "label": "London",
+                    "value": 3
+                  },
+                  {
+                    "label": "Istanbul",
+                    "value": 4
+                  },
+                  {
+                    "label": "Paris",
+                    "value": 5
+                  }
+                ],
+                "disabled": false
+              },
+              {
+                "value": "Urbano",
+                "key": "zone",
+                "label": "Zona",
+                "required": true,
+                "min": null,
+                "max": null,
+                "email": false,
+                "regExp": null,
+                "controlType": "text",
+                "type": "text",
+                "options": [],
+                "disabled": false
+              },
+              {
+                "value": "09",
+                "key": "column",
+                "label": "Columna",
+                "required": true,
+                "min": 5,
+                "max": 3,
+                "email": false,
+                "regExp": null,
+                "controlType": "number",
+                "type": "number",
+                "options": [],
+                "disabled": false
+              }
+            ]
+          },
+          {
+            "id": "001AB02",
+            "code": "002",
+            "zipCode": "01102",
+            "settlement": "Estadio Azteca",
+            "typeSettlement": "Colonia",
+            "municipality": "Pedregal de San Ángel",
+            "state": "Ciudad de México",
+            "city": "Ciudad de México",
+            "zone": "Urbano",
+            "column": "09",
+            "templateForm": [
+              {
+                "value": "001",
+                "key": "code",
+                "label": "Código",
+                "required": false,
+                "min": null,
+                "max": null,
+                "email": true,
+                "regExp": null,
+                "controlType": "text",
+                "type": "text",
+                "options": [],
+                "disabled": false
+              },
+              {
+                "value": "01101",
+                "key": "zipCode",
+                "label": "Código postal",
+                "required": true,
+                "min": 5,
+                "max": 8,
+                "email": false,
+                "regExp": null,
+                "controlType": "number",
+                "type": "number",
+                "options": [],
+                "disabled": false
+              },
+              {
+                "value": "Estadio Azteca",
+                "key": "settlement",
+                "label": "Asentamiento",
+                "required": true,
+                "min": 5,
+                "max": 3,
+                "email": false,
+                "regExp": null,
+                "controlType": "text",
+                "type": "text",
+                "options": [],
+                "disabled": false
+              },
+              {
+                "value": "Colonia",
+                "key": "typeSettlement",
+                "label": "Tipo de asentamiento",
+                "required": true,
+                "min": null,
+                "max": null,
+                "email": false,
+                "regExp": null,
+                "controlType": "dropdown",
+                "type": "dropdown",
+                "disabled": false,
+                "options": []
+              },
+              {
+                "value": "Pedregal de San Ángel",
+                "key": "municipality",
+                "label": "Municipio",
+                "required": true,
+                "min": null,
+                "max": null,
+                "email": false,
+                "regExp": null,
+                "controlType": "text",
+                "type": "text",
+                "options": [],
+                "disabled": false
+              },
+              {
+                "value": 1,
+                "key": "state",
+                "label": "Estado",
+                "required": true,
+                "min": null,
+                "max": null,
+                "email": false,
+                "regExp": null,
+                "controlType": "dropdown",
+                "type": "dropdown",
+                "options": [
+                  {
+                    "label": "Ciudad de México",
+                    "value": 1
+                  },
+                  {
+                    "label": "Rome",
+                    "value": 2
+                  },
+                  {
+                    "label": "London",
+                    "value": 3
+                  },
+                  {
+                    "label": "Istanbul",
+                    "value": 4
+                  },
+                  {
+                    "label": "Paris",
+                    "value": 5
+                  }
+                ],
+                "disabled": false
+              },
+              {
+                "value": 1,
+                "key": "city",
+                "label": "Ciudad",
+                "required": true,
+                "min": null,
+                "max": null,
+                "email": false,
+                "regExp": null,
+                "controlType": "dropdown",
+                "type": "dropdown",
+                "options": [
+                  {
+                    "label": "Ciudad de México",
+                    "value": 1
+                  },
+                  {
+                    "label": "Rome",
+                    "value": 2
+                  },
+                  {
+                    "label": "London",
+                    "value": 3
+                  },
+                  {
+                    "label": "Istanbul",
+                    "value": 4
+                  },
+                  {
+                    "label": "Paris",
+                    "value": 5
+                  }
+                ],
+                "disabled": false
+              },
+              {
+                "value": "Urbano",
+                "key": "zone",
+                "label": "Zona",
+                "required": true,
+                "min": null,
+                "max": null,
+                "email": false,
+                "regExp": null,
+                "controlType": "text",
+                "type": "text",
+                "options": [],
+                "disabled": false
+              },
+              {
+                "value": "09",
+                "key": "column",
+                "label": "Columna",
+                "required": true,
+                "min": 5,
+                "max": 3,
+                "email": false,
+                "regExp": null,
+                "controlType": "number",
+                "type": "number",
+                "options": [],
+                "disabled": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "005",
+        "data": [
+          {
+            "id": "001CC01",
+            "reference": "RI 001",
+            "concept": "Riesgo de credito",
+            "status": "Revisado",
+            "import": "$3456.00 MXN",
+            "user": "Cristobal Vences",
+            "templateForm": [
+              {
+                "value": "RI 001",
+                "key": "reference",
+                "label": "Referencia",
+                "required": true,
+                "min": 5,
+                "max": 8,
+                "email": false,
+                "regExp": null,
+                "controlType": "number",
+                "type": "number",
+                "options": [],
+                "disabled": false
+              },
+              {
+                "value": "Riesgo de credito",
+                "key": "concept",
+                "label": "Concepto",
+                "required": true,
+                "min": 5,
+                "max": 3,
+                "email": false,
+                "regExp": null,
+                "controlType": "text",
+                "type": "text",
+                "options": [],
+                "disabled": false
+              },
+              {
+                "value": 3,
+                "key": "status",
+                "label": "Estatus",
+                "required": true,
+                "min": null,
+                "max": null,
+                "email": false,
+                "regExp": null,
+                "controlType": "dropdown",
+                "type": "dropdown",
+                "disabled": false,
+                "options": [
+                  {
+                    "label": "Pagado",
+                    "value": 1
+                  },
+                  {
+                    "label": "Cancelado",
+                    "value": 2
+                  },
+                  {
+                    "label": "Revisión",
+                    "value": 3
+                  }
+                ]
+              },
+              {
+                "value": "$3456.00 MXN",
+                "key": "import",
+                "label": "Importe",
+                "required": true,
+                "min": null,
+                "max": null,
+                "email": false,
+                "regExp": null,
+                "controlType": "text",
+                "type": "text",
+                "options": [],
+                "disabled": false
+              },
+              {
+                "value": "Cristobal Vences",
+                "key": "user",
+                "label": "Usuario",
+                "required": true,
+                "min": null,
+                "max": null,
+                "email": false,
+                "regExp": null,
+                "controlType": "text",
+                "type": "text",
+                "options": [],
+                "disabled": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "006",
+        "data": [
+          {
+            "id": "001CD01",
+            "mcc": "8398",
+            "description": "Beneficencia | Organizaciones de servicio social",
+            "templateForm": [
+              {
+                "value": "8398",
+                "key": "mcc",
+                "label": "MCC",
+                "required": false,
+                "min": null,
+                "max": null,
+                "email": false,
+                "regExp": null,
+                "controlType": "text",
+                "type": "text",
+                "options": [],
+                "disabled": false
+              },
+              {
+                "value": "Beneficencia | Organizaciones de servicio social",
+                "key": "description",
+                "label": "Descripcion",
+                "required": true,
+                "min": 5,
+                "max": 8,
+                "email": false,
+                "regExp": null,
+                "controlType": "text",
+                "type": "text",
+                "options": [],
+                "disabled": false
+              }
+            ]
+          },
+          {
+            "id": "001CD02",
+            "mcc": "8211",
+            "description": "Eduación básica | Escuelas primarias, secundarias",
+            "templateForm": [
+              {
+                "value": "8211",
+                "key": "mcc",
+                "label": "MCC",
+                "required": false,
+                "min": null,
+                "max": null,
+                "email": false,
+                "regExp": null,
+                "controlType": "text",
+                "type": "text",
+                "options": [],
+                "disabled": false
+              },
+              {
+                "value": "Eduación básica | Escuelas primarias, secundarias",
+                "key": "description",
+                "label": "Descripcion",
+                "required": true,
+                "min": 5,
+                "max": 8,
+                "email": false,
+                "regExp": null,
+                "controlType": "text",
+                "type": "text",
+                "options": [],
+                "disabled": false
+              }
+            ]
+          },
+          {
+            "id": "001CD03",
+            "mcc": "7424",
+            "description": "Medicos y dentistas | Servicios veterinarios",
+            "templateForm": [
+              {
+                "value": "7424",
+                "key": "mcc",
+                "label": "MCC",
+                "required": false,
+                "min": null,
+                "max": null,
+                "email": false,
+                "regExp": null,
+                "controlType": "text",
+                "type": "text",
+                "options": [],
+                "disabled": false
+              },
+              {
+                "value": "Medicos y dentistas | Servicios veterinarios",
+                "key": "description",
+                "label": "Descripcion",
+                "required": true,
+                "min": 5,
+                "max": 8,
+                "email": false,
+                "regExp": null,
+                "controlType": "text",
+                "type": "text",
+                "options": [],
+                "disabled": false
+              }
+            ]
+          },
+          {
+            "id": "001CD04",
+            "mcc": "8351",
+            "description": "Guarderia | Servicio de cuidado por día",
+            "templateForm": [
+              {
+                "value": "8251",
+                "key": "mcc",
+                "label": "MCC",
+                "required": false,
+                "min": null,
+                "max": null,
+                "email": false,
+                "regExp": null,
+                "controlType": "text",
+                "type": "text",
+                "options": [],
+                "disabled": false
+              },
+              {
+                "value": "Guarderia | Servicio de cuidado por día",
+                "key": "description",
+                "label": "Descripcion",
+                "required": true,
+                "min": 5,
+                "max": 8,
+                "email": false,
+                "regExp": null,
+                "controlType": "text",
+                "type": "text",
+                "options": [],
+                "disabled": false
+              }
+            ]
+          },
+          {
+            "id": "001CD05",
+            "mcc": "8398",
+            "description": "Educación superior | Escuelas, colegios, universidades",
+            "templateForm": [
+              {
+                "value": "8398",
+                "key": "mcc",
+                "label": "MCC",
+                "required": false,
+                "min": null,
+                "max": null,
+                "email": false,
+                "regExp": null,
+                "controlType": "text",
+                "type": "text",
+                "options": [],
+                "disabled": false
+              },
+              {
+                "value": "Educación superior | Escuelas, colegios, universidades",
+                "key": "description",
+                "label": "Descripcion",
+                "required": true,
+                "min": 5,
+                "max": 8,
+                "email": false,
+                "regExp": null,
+                "controlType": "text",
+                "type": "text",
+                "options": [],
+                "disabled": false
+              }
+            ]
+          },
+          {
+            "id": "001CD06",
+            "mcc": "5109",
+            "description": "Gastos de envio | Servicios de mensajería",
+            "templateForm": [
+              {
+                "value": "5109",
+                "key": "mcc",
+                "label": "MCC",
+                "required": false,
+                "min": null,
+                "max": null,
+                "email": false,
+                "regExp": null,
+                "controlType": "text",
+                "type": "text",
+                "options": [],
+                "disabled": false
+              },
+              {
+                "value": "Gastos de envio | Servicios de mensajería",
+                "key": "description",
+                "label": "Descripcion",
+                "required": true,
+                "min": 5,
+                "max": 8,
+                "email": false,
+                "regExp": null,
+                "controlType": "text",
+                "type": "text",
+                "options": [],
+                "disabled": false
+              }
+            ]
+          },
+          {
+            "id": "001CD07",
+            "templateForm": [
+              {
+                "key": "mcc",
+                "label": "MCC",
+                "required": false,
+                "min": null,
+                "max": null,
+                "email": false,
+                "regExp": null,
+                "controlType": "text",
+                "type": "text",
+                "options": [],
+                "disabled": false,
+                "value": ""
+              },
+              {
+                "key": "description",
+                "label": "Descripcion",
+                "required": false,
+                "min": null,
+                "max": null,
+                "email": false,
+                "regExp": null,
+                "controlType": "text",
+                "type": "text",
+                "options": [],
+                "disabled": false,
+                "value": ""
+              }
+            ]
+          },
+          {
+            "id": "001CD08",
+            "description": "Ligas de pago",
+            "templateForm": [
+              {
+                "key": "mcc",
+                "label": "MCC",
+                "required": false,
+                "min": null,
+                "max": null,
+                "email": false,
+                "regExp": null,
+                "controlType": "text",
+                "type": "text",
+                "options": [],
+                "disabled": false,
+                "value": ""
+              },
+              {
+                "key": "description",
+                "label": "Descripcion",
+                "required": false,
+                "min": null,
+                "max": null,
+                "email": false,
+                "regExp": null,
+                "controlType": "text",
+                "type": "text",
+                "options": [],
+                "disabled": false,
+                "value": "Ligas de pago"
+              }
+            ]
+          },
+          {
+            "id": "001CD09",
+            "description": "Modelo de operación",
+            "templateForm": [
+              {
+                "key": "mcc",
+                "label": "MCC",
+                "required": false,
+                "min": null,
+                "max": null,
+                "email": false,
+                "regExp": null,
+                "controlType": "text",
+                "type": "text",
+                "options": [],
+                "disabled": false,
+                "value": ""
+              },
+              {
+                "key": "description",
+                "label": "Descripcion",
+                "required": false,
+                "min": null,
+                "max": null,
+                "email": false,
+                "regExp": null,
+                "controlType": "text",
+                "type": "text",
+                "options": [],
+                "disabled": false,
+                "value": "Modelo de operación"
+              }
+            ]
+          },
+          {
+            "id": "001CD010",
+            "templateForm": [
+              {
+                "key": "mcc",
+                "label": "MCC",
+                "required": false,
+                "min": null,
+                "max": null,
+                "email": false,
+                "regExp": null,
+                "controlType": "text",
+                "type": "text",
+                "options": [],
+                "disabled": false,
+                "value": ""
+              },
+              {
+                "key": "description",
+                "label": "Descripcion",
+                "required": false,
+                "min": null,
+                "max": null,
+                "email": false,
+                "regExp": null,
+                "controlType": "text",
+                "type": "text",
+                "options": [],
+                "disabled": false,
+                "value": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "007",
+        "data": [
+          {
+            "id": "001VE01",
+            "name": "Ventas Octubre",
+            "registers": "65460",
+            "products": "Financiera",
+            "creationDate": "2024-04-11",
+            "lastModificationDate": "2024-03-08",
+            "status": "Activo",
+            "phone": "+525539008733",
+            "description": "Venta comercial",
+            "productos": "Financiera, Gerencia, Operaciones",
+            "templateForm": [
+              {
+                "value": "Ventas Octubre",
+                "key": "name",
+                "label": "Nombre",
+                "required": false,
+                "min": null,
+                "max": null,
+                "email": false,
+                "regExp": null,
+                "controlType": "text",
+                "type": "text",
+                "options": [],
+                "disabled": false
+              },
+              {
+                "value": "65460",
+                "key": "registers",
+                "label": "Registros",
+                "required": true,
+                "min": 5,
+                "max": 8,
+                "email": false,
+                "regExp": null,
+                "controlType": "text",
+                "type": "text",
+                "options": [],
+                "disabled": false
+              },
+              {
+                "value": "Financiera",
+                "key": "products",
+                "label": "Productos",
+                "required": true,
+                "min": 5,
+                "max": 3,
+                "email": false,
+                "regExp": null,
+                "controlType": "text",
+                "type": "text",
+                "options": [],
+                "disabled": false
+              },
+              {
+                "value": "2024-04-11",
+                "key": "creationDate",
+                "label": "Fecha de creación",
+                "required": true,
+                "min": null,
+                "max": null,
+                "email": false,
+                "regExp": null,
+                "controlType": "calendar",
+                "type": "calendar",
+                "disabled": false,
+                "options": []
+              },
+              {
+                "value": "2024-03-08",
+                "key": "lastModificationDate",
+                "label": "Fecha de última modificación",
+                "required": true,
+                "min": null,
+                "max": null,
+                "email": false,
+                "regExp": null,
+                "controlType": "calendar",
+                "type": "calendar",
+                "options": [],
+                "disabled": false
+              },
+              {
+                "value": 1,
+                "key": "status",
+                "label": "Estatus",
+                "required": true,
+                "min": null,
+                "max": null,
+                "email": false,
+                "regExp": null,
+                "controlType": "dropdown",
+                "type": "dropdown",
+                "options": [
+                  {
+                    "label": "Activo",
+                    "value": 1
+                  },
+                  {
+                    "label": "Inactivo",
+                    "value": 2
+                  }
+                ],
+                "disabled": false
+              },
+              {
+                "value": "+525555555555",
+                "key": "phone",
+                "label": "Teléfono",
+                "required": false,
+                "min": null,
+                "max": null,
+                "email": false,
+                "regExp": null,
+                "controlType": "number",
+                "type": "phone",
+                "options": [],
+                "disabled": false
+              },
+              {
+                "value": "Venta comercial",
+                "key": "description",
+                "label": "Descripción",
+                "required": false,
+                "min": null,
+                "max": null,
+                "email": false,
+                "regExp": null,
+                "controlType": "textarea",
+                "type": "textarea",
+                "options": [],
+                "disabled": false
+              },
+              {
+                "value": "Financiera, Gerencia, Operaciones",
+                "key": "products",
+                "label": "Productos",
+                "required": false,
+                "min": null,
+                "max": null,
+                "email": false,
+                "regExp": null,
+                "controlType": "multiselect",
+                "type": "multiselect",
+                "options": [
+                  {
+                    "label": "Financiera",
+                    "value": 1
+                  },
+                  {
+                    "label": "Gerencia",
+                    "value": 2
+                  },
+                  {
+                    "label": "Operaciones",
+                    "value": 3
+                  }
+                ],
+                "disabled": false
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "headersSubCatalogs": [
+    {
+      "id": "001",
+      "headers": {
+        "startDate": "Fecha registro",
+        "reference": "Referencia",
+        "concept": "Concepto",
+        "status": "Estatus",
+        "import": "Importe",
+        "user": "Usuario",
+        "branch": "Sucursal"
+      }
+    },
+    {
+      "id": "002",
+      "headers": {
+        "reference": "Referencia",
+        "concept": "Concepto",
+        "status": "Estatus",
+        "import": "Importe"
+      }
+    },
+    {
+      "id": "003",
+      "headers": {
+        "reference": "Referencia",
+        "concept": "Concepto",
+        "status": "Estatus",
+        "import": "Importe",
+        "user": "Usuario"
+      }
+    },
+    {
+      "id": "004",
+      "headers": {
+        "code": "Código",
+        "zipCode": "CP",
+        "settlement": "Asentamiento",
+        "typeSettlement": "Tipo de asentamiento",
+        "municipality": "Municipio",
+        "state": "Estado",
+        "city": "Ciudad",
+        "zone": "Zona",
+        "column": "Columna"
+      }
+    },
+    {
+      "id": "005",
+      "headers": {
+        "reference": "Referencia",
+        "concept": "Concepto",
+        "status": "Estatus",
+        "import": "Importe",
+        "user": "Usuario"
+      }
+    },
+    {
+      "id": "006",
+      "headers": {
+        "mcc": "MCC",
+        "description": "Descripcion"
+      }
+    },
+    {
+      "id": "007",
+      "headers": {
+        "name": "Nombre",
+        "registers": "Registros",
+        "products": "Productos o servicios",
+        "creationDate": "Creación",
+        "lastModificationDate": "Última actualización",
+        "status": "Estatus",
+        "phone": "Teléfono",
+        "description": "Descripción",
+        "productos": "Productos"
+      }
+    }
+  ],
+  "showByCatalog": [
+    {
+      "id": "001",
+      "templateForm": [
+        {
+          "value": "Ligas de pago",
+          "key": "name",
+          "label": "Nombre",
+          "required": false,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "text",
+          "type": "text",
+          "options": [],
+          "disabled": true
+        },
+        {
+          "value": "100",
+          "key": "registers",
+          "label": "Registros",
+          "required": true,
+          "min": 5,
+          "max": 8,
+          "email": false,
+          "regExp": null,
+          "controlType": "text",
+          "type": "text",
+          "options": [],
+          "disabled": true
+        },
+        {
+          "value": "Financiera",
+          "key": "products",
+          "label": "Productos",
+          "required": true,
+          "min": 5,
+          "max": 3,
+          "email": false,
+          "regExp": null,
+          "controlType": "text",
+          "type": "text",
+          "options": [],
+          "disabled": true
+        },
+        {
+          "value": "2024-04-11",
+          "key": "creationDate",
+          "label": "Fecha de creación",
+          "required": true,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "calendar",
+          "type": "calendar",
+          "disabled": true,
+          "options": []
+        },
+        {
+          "value": "2024-03-08",
+          "key": "lastModificationDate",
+          "label": "Fecha de última modificación",
+          "required": true,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "calendar",
+          "type": "calendar",
+          "options": [],
+          "disabled": true
+        },
+        {
+          "value": 1,
+          "key": "status",
+          "label": "Estatus",
+          "required": true,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "dropdown",
+          "type": "dropdown",
+          "options": [
+            {
+              "label": "Activo",
+              "value": 1
+            },
+            {
+              "label": "Inactivo",
+              "value": 2
+            }
+          ],
+          "disabled": true
+        },
+        {
+          "value": "+525555555555",
+          "key": "phone",
+          "label": "Teléfono",
+          "required": false,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "number",
+          "type": "phone",
+          "options": [],
+          "disabled": true
+        },
+        {
+          "value": "Ligas de pago",
+          "key": "description",
+          "label": "Descripción",
+          "required": false,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "textarea",
+          "type": "textarea",
+          "options": [],
+          "disabled": true
+        },
+        {
+          "value": [
+            {
+              "label": "Financiera",
+              "value": 1
+            },
+            {
+              "label": "Gerencia",
+              "value": 2
+            },
+            {
+              "label": "Operaciones",
+              "value": 3
+            }
+          ],
+          "key": "products",
+          "label": "Productos",
+          "required": false,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "multiselect",
+          "type": "multiselect",
+          "options": [
+            {
+              "label": "Financiera",
+              "value": 1
+            },
+            {
+              "label": "Gerencia",
+              "value": 2
+            },
+            {
+              "label": "Operaciones",
+              "value": 3
+            }
+          ],
+          "disabled": true
+        }
+      ]
+    },
+    {
+      "id": "002",
+      "templateForm": [
+        {
+          "value": "Modelo de operación",
+          "key": "name",
+          "label": "Nombre",
+          "required": false,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "text",
+          "type": "text",
+          "options": [],
+          "disabled": true
+        },
+        {
+          "value": "1200",
+          "key": "registers",
+          "label": "Registros",
+          "required": true,
+          "min": 5,
+          "max": 8,
+          "email": false,
+          "regExp": null,
+          "controlType": "text",
+          "type": "text",
+          "options": [],
+          "disabled": true
+        },
+        {
+          "value": "Todos",
+          "key": "products",
+          "label": "Productos",
+          "required": true,
+          "min": 5,
+          "max": 3,
+          "email": false,
+          "regExp": null,
+          "controlType": "text",
+          "type": "text",
+          "options": [],
+          "disabled": true
+        },
+        {
+          "value": "2024-09-23",
+          "key": "creationDate",
+          "label": "Fecha de creación",
+          "required": true,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "calendar",
+          "type": "calendar",
+          "disabled": true,
+          "options": []
+        },
+        {
+          "value": "2024-01-19",
+          "key": "lastModificationDate",
+          "label": "Fecha de última modificación",
+          "required": true,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "calendar",
+          "type": "calendar",
+          "options": [],
+          "disabled": true
+        },
+        {
+          "value": 1,
+          "key": "status",
+          "label": "Estatus",
+          "required": true,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "dropdown",
+          "type": "dropdown",
+          "options": [
+            {
+              "label": "Activo",
+              "value": 1
+            },
+            {
+              "label": "Inactivo",
+              "value": 2
+            }
+          ],
+          "disabled": true
+        },
+        {
+          "value": "+525542310055",
+          "key": "phone",
+          "label": "Teléfono",
+          "required": false,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "number",
+          "type": "phone",
+          "options": [],
+          "disabled": true
+        },
+        {
+          "value": "Modelo de operación",
+          "key": "description",
+          "label": "Descripción",
+          "required": false,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "textarea",
+          "type": "textarea",
+          "options": [],
+          "disabled": true
+        },
+        {
+          "value": [
+            {
+              "label": "Financiera",
+              "value": 1
+            },
+            {
+              "label": "Gerencia",
+              "value": 2
+            }
+          ],
+          "key": "products",
+          "label": "Productos",
+          "required": false,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "multiselect",
+          "type": "multiselect",
+          "options": [
+            {
+              "label": "Financiera",
+              "value": 1
+            },
+            {
+              "label": "Gerencia",
+              "value": 2
+            },
+            {
+              "label": "Operaciones",
+              "value": 3
+            }
+          ],
+          "disabled": true
+        }
+      ]
+    },
+    {
+      "id": "003",
+      "templateForm": [
+        {
+          "value": "Antifraude",
+          "key": "name",
+          "label": "Nombre",
+          "required": false,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "text",
+          "type": "text",
+          "options": [],
+          "disabled": true
+        },
+        {
+          "value": "1500",
+          "key": "registers",
+          "label": "Registros",
+          "required": true,
+          "min": 5,
+          "max": 8,
+          "email": false,
+          "regExp": null,
+          "controlType": "text",
+          "type": "text",
+          "options": [],
+          "disabled": true
+        },
+        {
+          "value": "Todos",
+          "key": "products",
+          "label": "Productos",
+          "required": true,
+          "min": 5,
+          "max": 3,
+          "email": false,
+          "regExp": null,
+          "controlType": "text",
+          "type": "text",
+          "options": [],
+          "disabled": true
+        },
+        {
+          "value": "2024-12-17",
+          "key": "creationDate",
+          "label": "Fecha de creación",
+          "required": true,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "calendar",
+          "type": "calendar",
+          "disabled": true,
+          "options": []
+        },
+        {
+          "value": "2024-07-03",
+          "key": "lastModificationDate",
+          "label": "Fecha de última modificación",
+          "required": true,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "calendar",
+          "type": "calendar",
+          "options": [],
+          "disabled": true
+        },
+        {
+          "value": 1,
+          "key": "status",
+          "label": "Estatus",
+          "required": true,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "dropdown",
+          "type": "dropdown",
+          "options": [
+            {
+              "label": "Activo",
+              "value": 1
+            },
+            {
+              "label": "Inactivo",
+              "value": 2
+            }
+          ],
+          "disabled": true
+        },
+        {
+          "value": "+12324324343",
+          "key": "phone",
+          "label": "Teléfono",
+          "required": false,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "number",
+          "type": "phone",
+          "options": [],
+          "disabled": true
+        },
+        {
+          "value": "Antifraude",
+          "key": "description",
+          "label": "Descripción",
+          "required": false,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "textarea",
+          "type": "textarea",
+          "options": [],
+          "disabled": true
+        },
+        {
+          "value": [
+            {
+              "label": "Financiera",
+              "value": 1
+            },
+            {
+              "label": "Operaciones",
+              "value": 3
+            }
+          ],
+          "key": "products",
+          "label": "Productos",
+          "required": false,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "multiselect",
+          "type": "multiselect",
+          "options": [
+            {
+              "label": "Financiera",
+              "value": 1
+            },
+            {
+              "label": "Gerencia",
+              "value": 2
+            },
+            {
+              "label": "Operaciones",
+              "value": 3
+            }
+          ],
+          "disabled": true
+        }
+      ]
+    },
+    {
+      "id": "004",
+      "templateForm": [
+        {
+          "value": "Codigos postales",
+          "key": "name",
+          "label": "Nombre",
+          "required": false,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "text",
+          "type": "text",
+          "options": [],
+          "disabled": true
+        },
+        {
+          "value": "800",
+          "key": "registers",
+          "label": "Registros",
+          "required": true,
+          "min": 5,
+          "max": 8,
+          "email": false,
+          "regExp": null,
+          "controlType": "text",
+          "type": "text",
+          "options": [],
+          "disabled": true
+        },
+        {
+          "value": "Banca",
+          "key": "products",
+          "label": "Productos",
+          "required": true,
+          "min": 5,
+          "max": 3,
+          "email": false,
+          "regExp": null,
+          "controlType": "text",
+          "type": "text",
+          "options": [],
+          "disabled": true
+        },
+        {
+          "value": "2023-01-02",
+          "key": "creationDate",
+          "label": "Fecha de creación",
+          "required": true,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "calendar",
+          "type": "calendar",
+          "disabled": true,
+          "options": []
+        },
+        {
+          "value": "2024-02-15",
+          "key": "lastModificationDate",
+          "label": "Fecha de última modificación",
+          "required": true,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "calendar",
+          "type": "calendar",
+          "options": [],
+          "disabled": true
+        },
+        {
+          "value": 1,
+          "key": "status",
+          "label": "Estatus",
+          "required": true,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "dropdown",
+          "type": "dropdown",
+          "options": [
+            {
+              "label": "Activo",
+              "value": 1
+            },
+            {
+              "label": "Inactivo",
+              "value": 2
+            }
+          ],
+          "disabled": true
+        },
+        {
+          "value": "+525502443210",
+          "key": "phone",
+          "label": "Teléfono",
+          "required": false,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "number",
+          "type": "phone",
+          "options": [],
+          "disabled": true
+        },
+        {
+          "value": "Codigos postales",
+          "key": "description",
+          "label": "Descripción",
+          "required": false,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "textarea",
+          "type": "textarea",
+          "options": [],
+          "disabled": true
+        },
+        {
+          "value": [
+            {
+              "label": "Financiera",
+              "value": 1
+            },
+            {
+              "label": "Gerencia",
+              "value": 2
+            },
+            {
+              "label": "Operaciones",
+              "value": 3
+            }
+          ],
+          "key": "products",
+          "label": "Productos",
+          "required": false,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "multiselect",
+          "type": "multiselect",
+          "options": [
+            {
+              "label": "Financiera",
+              "value": 1
+            },
+            {
+              "label": "Gerencia",
+              "value": 2
+            },
+            {
+              "label": "Operaciones",
+              "value": 3
+            }
+          ],
+          "disabled": true
+        }
+      ]
+    },
+    {
+      "id": "005",
+      "templateForm": [
+        {
+          "value": "Riesgos",
+          "key": "name",
+          "label": "Nombre",
+          "required": false,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "text",
+          "type": "text",
+          "options": [],
+          "disabled": true
+        },
+        {
+          "value": "500",
+          "key": "registers",
+          "label": "Registros",
+          "required": true,
+          "min": 5,
+          "max": 8,
+          "email": false,
+          "regExp": null,
+          "controlType": "text",
+          "type": "text",
+          "options": [],
+          "disabled": true
+        },
+        {
+          "value": "Financiera",
+          "key": "products",
+          "label": "Productos",
+          "required": true,
+          "min": 5,
+          "max": 3,
+          "email": false,
+          "regExp": null,
+          "controlType": "text",
+          "type": "text",
+          "options": [],
+          "disabled": true
+        },
+        {
+          "value": "2023-05-14",
+          "key": "creationDate",
+          "label": "Fecha de creación",
+          "required": true,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "calendar",
+          "type": "calendar",
+          "disabled": true,
+          "options": []
+        },
+        {
+          "value": "2024-06-05",
+          "key": "lastModificationDate",
+          "label": "Fecha de última modificación",
+          "required": true,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "calendar",
+          "type": "calendar",
+          "options": [],
+          "disabled": true
+        },
+        {
+          "value": 1,
+          "key": "status",
+          "label": "Estatus",
+          "required": true,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "dropdown",
+          "type": "dropdown",
+          "options": [
+            {
+              "label": "Activo",
+              "value": 1
+            },
+            {
+              "label": "Inactivo",
+              "value": 2
+            }
+          ],
+          "disabled": true
+        },
+        {
+          "value": "+525555555555",
+          "key": "phone",
+          "label": "Teléfono",
+          "required": false,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "number",
+          "type": "phone",
+          "options": [],
+          "disabled": true
+        },
+        {
+          "value": "Riesgos",
+          "key": "description",
+          "label": "Descripción",
+          "required": false,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "textarea",
+          "type": "textarea",
+          "options": [],
+          "disabled": true
+        },
+        {
+          "value": [
+            {
+              "label": "Financiera",
+              "value": 1
+            },
+            {
+              "label": "Operaciones",
+              "value": 3
+            }
+          ],
+          "key": "products",
+          "label": "Productos",
+          "required": false,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "multiselect",
+          "type": "multiselect",
+          "options": [
+            {
+              "label": "Financiera",
+              "value": 1
+            },
+            {
+              "label": "Gerencia",
+              "value": 2
+            },
+            {
+              "label": "Operaciones",
+              "value": 3
+            }
+          ],
+          "disabled": true
+        }
+      ]
+    },
+    {
+      "id": "006",
+      "templateForm": [
+        {
+          "value": "Giro comercial",
+          "key": "name",
+          "label": "Nombre",
+          "required": false,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "text",
+          "type": "text",
+          "options": [],
+          "disabled": true
+        },
+        {
+          "value": "200",
+          "key": "registers",
+          "label": "Registros",
+          "required": true,
+          "min": 5,
+          "max": 8,
+          "email": false,
+          "regExp": null,
+          "controlType": "text",
+          "type": "text",
+          "options": [],
+          "disabled": true
+        },
+        {
+          "value": "Comercial",
+          "key": "products",
+          "label": "Productos",
+          "required": true,
+          "min": 5,
+          "max": 3,
+          "email": false,
+          "regExp": null,
+          "controlType": "text",
+          "type": "text",
+          "options": [],
+          "disabled": true
+        },
+        {
+          "value": "2023-03-29",
+          "key": "creationDate",
+          "label": "Fecha de creación",
+          "required": true,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "calendar",
+          "type": "calendar",
+          "disabled": true,
+          "options": []
+        },
+        {
+          "value": "2024-04-17",
+          "key": "lastModificationDate",
+          "label": "Fecha de última modificación",
+          "required": true,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "calendar",
+          "type": "calendar",
+          "options": [],
+          "disabled": true
+        },
+        {
+          "value": 1,
+          "key": "status",
+          "label": "Estatus",
+          "required": true,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "dropdown",
+          "type": "dropdown",
+          "options": [
+            {
+              "label": "Activo",
+              "value": 1
+            },
+            {
+              "label": "Inactivo",
+              "value": 2
+            }
+          ],
+          "disabled": true
+        },
+        {
+          "value": "+525542310055",
+          "key": "phone",
+          "label": "Teléfono",
+          "required": false,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "number",
+          "type": "phone",
+          "options": [],
+          "disabled": true
+        },
+        {
+          "value": "Giro comercial",
+          "key": "description",
+          "label": "Descripción",
+          "required": false,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "textarea",
+          "type": "textarea",
+          "options": [],
+          "disabled": true
+        },
+        {
+          "value": [
+            {
+              "label": "Financiera",
+              "value": 1
+            }
+          ],
+          "key": "productsOf",
+          "label": "Productos",
+          "required": false,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "multiselect",
+          "type": "multiselect",
+          "options": [
+            {
+              "label": "Financiera",
+              "value": 1
+            },
+            {
+              "label": "Gerencia",
+              "value": 2
+            },
+            {
+              "label": "Operaciones",
+              "value": 3
+            }
+          ],
+          "disabled": true
+        }
+      ]
+    },
+    {
+      "id": "007",
+      "templateForm": [
+        {
+          "value": "Ventas por internet",
+          "key": "name",
+          "label": "Nombre",
+          "required": false,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "text",
+          "type": "text",
+          "options": [],
+          "disabled": true
+        },
+        {
+          "value": "6560",
+          "key": "registers",
+          "label": "Registros",
+          "required": true,
+          "min": 5,
+          "max": 8,
+          "email": false,
+          "regExp": null,
+          "controlType": "text",
+          "type": "text",
+          "options": [],
+          "disabled": true
+        },
+        {
+          "value": "Comercial",
+          "key": "productsOf",
+          "label": "Productos",
+          "required": true,
+          "min": 5,
+          "max": 3,
+          "email": false,
+          "regExp": null,
+          "controlType": "text",
+          "type": "text",
+          "options": [],
+          "disabled": true
+        },
+        {
+          "value": "2024-10-01",
+          "key": "creationDate",
+          "label": "Fecha de creación",
+          "required": true,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "calendar",
+          "type": "calendar",
+          "disabled": true,
+          "options": []
+        },
+        {
+          "value": "2024-10-20",
+          "key": "lastModificationDate",
+          "label": "Fecha de última modificación",
+          "required": true,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "calendar",
+          "type": "calendar",
+          "options": [],
+          "disabled": true
+        },
+        {
+          "value": 1,
+          "key": "status",
+          "label": "Estatus",
+          "required": true,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "dropdown",
+          "type": "dropdown",
+          "options": [
+            {
+              "label": "Activo",
+              "value": 1
+            },
+            {
+              "label": "Inactivo",
+              "value": 2
+            }
+          ],
+          "disabled": true
+        },
+        {
+          "value": "+525539008733",
+          "key": "phone",
+          "label": "Teléfono",
+          "required": false,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "number",
+          "type": "phone",
+          "options": [],
+          "disabled": true
+        },
+        {
+          "value": "Venta comercial",
+          "key": "description",
+          "label": "Descripción",
+          "required": false,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "textarea",
+          "type": "textarea",
+          "options": [],
+          "disabled": true
+        },
+        {
+          "value": [
+            {
+              "label": "Financiera",
+              "value": 1
+            },
+            {
+              "label": "Gerencia",
+              "value": 2
+            },
+            {
+              "label": "Operaciones",
+              "value": 3
+            }
+          ],
+          "key": "productsOf",
+          "label": "Productos",
+          "required": false,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "multiselect",
+          "type": "multiselect",
+          "options": [
+            {
+              "label": "Financiera",
+              "value": 1
+            },
+            {
+              "label": "Gerencia",
+              "value": 2
+            },
+            {
+              "label": "Operaciones",
+              "value": 3
+            }
+          ],
+          "disabled": true
+        }
+      ]
+    }
+  ],
+  "createCatalog": [
+    {
+      "templateForm": [
+        {
+          "value": "",
+          "key": "name",
+          "label": "Nombre",
+          "required": true,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "text",
+          "type": "text",
+          "options": [],
+          "disabled": false
+        },
+        {
+          "value": "",
+          "key": "registers",
+          "label": "Registros",
+          "required": true,
+          "min": 5,
+          "max": 8,
+          "email": false,
+          "regExp": null,
+          "controlType": "text",
+          "type": "text",
+          "options": [],
+          "disabled": false
+        },
+        {
+          "value": "",
+          "key": "products",
+          "label": "Productos",
+          "required": true,
+          "min": 5,
+          "max": 3,
+          "email": false,
+          "regExp": null,
+          "controlType": "text",
+          "type": "text",
+          "options": [],
+          "disabled": false
+        },
+        {
+          "value": "",
+          "key": "creationDate",
+          "label": "Fecha de creación",
+          "required": true,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "calendar",
+          "type": "calendar",
+          "disabled": false,
+          "options": []
+        },
+        {
+          "value": "",
+          "key": "lastModificationDate",
+          "label": "Fecha de última modificación",
+          "required": true,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "calendar",
+          "type": "calendar",
+          "options": [],
+          "disabled": false
+        },
+        {
+          "value": "",
+          "key": "status",
+          "label": "Estatus",
+          "required": true,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "dropdown",
+          "type": "dropdown",
+          "options": [
+            {
+              "label": "Activo",
+              "value": 1
+            },
+            {
+              "label": "Inactivo",
+              "value": 2
+            }
+          ],
+          "disabled": false
+        },
+        {
+          "value": "",
+          "key": "phone",
+          "label": "Teléfono",
+          "required": true,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "number",
+          "type": "phone",
+          "options": [],
+          "disabled": false
+        },
+        {
+          "value": "",
+          "key": "description",
+          "label": "Descripción",
+          "required": true,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "textarea",
+          "type": "textarea",
+          "options": [],
+          "disabled": false
+        },
+        {
+          "value": "",
+          "key": "products",
+          "label": "Productos",
+          "required": true,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "multiselect",
+          "type": "multiselect",
+          "options": [
+            {
+              "label": "Financiera",
+              "value": 1
+            },
+            {
+              "label": "Gerencia",
+              "value": 2
+            },
+            {
+              "label": "Operaciones",
+              "value": 3
+            }
+          ],
+          "disabled": false
+        }
+      ]
+    }
+  ],
+  "editByCatalog": [
+    {
+      "id": "001",
+      "templateForm": [
+        {
+          "value": "Ligas de pago",
+          "key": "name",
+          "label": "Nombre",
+          "required": true,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "text",
+          "type": "text",
+          "options": [],
+          "disabled": false
+        },
+        {
+          "value": "100",
+          "key": "registers",
+          "label": "Registros",
+          "required": true,
+          "min": 5,
+          "max": 8,
+          "email": false,
+          "regExp": null,
+          "controlType": "text",
+          "type": "text",
+          "options": [],
+          "disabled": false
+        },
+        {
+          "value": "Financiera",
+          "key": "productsOf",
+          "label": "Productos",
+          "required": true,
+          "min": 5,
+          "max": 3,
+          "email": false,
+          "regExp": null,
+          "controlType": "text",
+          "type": "text",
+          "options": [],
+          "disabled": false
+        },
+        {
+          "value": "2024-04-11",
+          "key": "creationDate",
+          "label": "Fecha de creación",
+          "required": true,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "calendar",
+          "type": "calendar",
+          "disabled": false,
+          "options": []
+        },
+        {
+          "value": "2024-03-08",
+          "key": "lastModificationDate",
+          "label": "Fecha de última modificación",
+          "required": true,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "calendar",
+          "type": "calendar",
+          "options": [],
+          "disabled": false
+        },
+        {
+          "value": 1,
+          "key": "status",
+          "label": "Estatus",
+          "required": true,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "dropdown",
+          "type": "dropdown",
+          "options": [
+            {
+              "label": "Activo",
+              "value": 1
+            },
+            {
+              "label": "Inactivo",
+              "value": 2
+            }
+          ],
+          "disabled": false
+        },
+        {
+          "value": "+525555555555",
+          "key": "phone",
+          "label": "Teléfono",
+          "required": true,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "number",
+          "type": "phone",
+          "options": [],
+          "disabled": false
+        },
+        {
+          "value": "Ligas de pago",
+          "key": "description",
+          "label": "Descripción",
+          "required": true,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "textarea",
+          "type": "textarea",
+          "options": [],
+          "disabled": false
+        },
+        {
+          "value": [
+            {
+              "label": "Financiera",
+              "value": 1
+            },
+            {
+              "label": "Gerencia",
+              "value": 2
+            },
+            {
+              "label": "Operaciones",
+              "value": 3
+            }
+          ],
+          "key": "productsSelect",
+          "label": "Productos",
+          "required": true,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "multiselect",
+          "type": "multiselect",
+          "options": [
+            {
+              "label": "Financiera",
+              "value": 1
+            },
+            {
+              "label": "Gerencia",
+              "value": 2
+            },
+            {
+              "label": "Operaciones",
+              "value": 3
+            }
+          ],
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "id": "002",
+      "templateForm": [
+        {
+          "value": "Modelo de operación",
+          "key": "name",
+          "label": "Nombre",
+          "required": false,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "text",
+          "type": "text",
+          "options": [],
+          "disabled": false
+        },
+        {
+          "value": "1200",
+          "key": "registers",
+          "label": "Registros",
+          "required": true,
+          "min": 5,
+          "max": 8,
+          "email": false,
+          "regExp": null,
+          "controlType": "text",
+          "type": "text",
+          "options": [],
+          "disabled": false
+        },
+        {
+          "value": "Todos",
+          "key": "productsOf",
+          "label": "Productos",
+          "required": true,
+          "min": 5,
+          "max": 3,
+          "email": false,
+          "regExp": null,
+          "controlType": "text",
+          "type": "text",
+          "options": [],
+          "disabled": false
+        },
+        {
+          "value": "2024-09-23",
+          "key": "creationDate",
+          "label": "Fecha de creación",
+          "required": true,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "calendar",
+          "type": "calendar",
+          "disabled": false,
+          "options": []
+        },
+        {
+          "value": "2024-01-19",
+          "key": "lastModificationDate",
+          "label": "Fecha de última modificación",
+          "required": true,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "calendar",
+          "type": "calendar",
+          "options": [],
+          "disabled": false
+        },
+        {
+          "value": 1,
+          "key": "status",
+          "label": "Estatus",
+          "required": true,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "dropdown",
+          "type": "dropdown",
+          "options": [
+            {
+              "label": "Activo",
+              "value": 1
+            },
+            {
+              "label": "Inactivo",
+              "value": 2
+            }
+          ],
+          "disabled": false
+        },
+        {
+          "value": "+525542310055",
+          "key": "phone",
+          "label": "Teléfono",
+          "required": false,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "number",
+          "type": "phone",
+          "options": [],
+          "disabled": false
+        },
+        {
+          "value": "Modelo de operación",
+          "key": "description",
+          "label": "Descripción",
+          "required": false,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "textarea",
+          "type": "textarea",
+          "options": [],
+          "disabled": false
+        },
+        {
+          "value": [
+            {
+              "label": "Financiera",
+              "value": 1
+            },
+            {
+              "label": "Gerencia",
+              "value": 2
+            }
+          ],
+          "key": "products",
+          "label": "Productos",
+          "required": false,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "multiselect",
+          "type": "multiselect",
+          "options": [
+            {
+              "label": "Financiera",
+              "value": 1
+            },
+            {
+              "label": "Gerencia",
+              "value": 2
+            },
+            {
+              "label": "Operaciones",
+              "value": 3
+            }
+          ],
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "id": "003",
+      "templateForm": [
+        {
+          "value": "Antifraude",
+          "key": "name",
+          "label": "Nombre",
+          "required": false,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "text",
+          "type": "text",
+          "options": [],
+          "disabled": false
+        },
+        {
+          "value": "1500",
+          "key": "registers",
+          "label": "Registros",
+          "required": true,
+          "min": 5,
+          "max": 8,
+          "email": false,
+          "regExp": null,
+          "controlType": "text",
+          "type": "text",
+          "options": [],
+          "disabled": false
+        },
+        {
+          "value": "Todos",
+          "key": "productsOf",
+          "label": "Productos",
+          "required": true,
+          "min": 5,
+          "max": 3,
+          "email": false,
+          "regExp": null,
+          "controlType": "text",
+          "type": "text",
+          "options": [],
+          "disabled": false
+        },
+        {
+          "value": "2024-12-17",
+          "key": "creationDate",
+          "label": "Fecha de creación",
+          "required": true,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "calendar",
+          "type": "calendar",
+          "disabled": false,
+          "options": []
+        },
+        {
+          "value": "2024-07-03",
+          "key": "lastModificationDate",
+          "label": "Fecha de última modificación",
+          "required": true,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "calendar",
+          "type": "calendar",
+          "options": [],
+          "disabled": false
+        },
+        {
+          "value": 1,
+          "key": "status",
+          "label": "Estatus",
+          "required": true,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "dropdown",
+          "type": "dropdown",
+          "options": [
+            {
+              "label": "Activo",
+              "value": 1
+            },
+            {
+              "label": "Inactivo",
+              "value": 2
+            }
+          ],
+          "disabled": false
+        },
+        {
+          "value": "+12324324343",
+          "key": "phone",
+          "label": "Teléfono",
+          "required": false,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "number",
+          "type": "phone",
+          "options": [],
+          "disabled": false
+        },
+        {
+          "value": "Antifraude",
+          "key": "description",
+          "label": "Descripción",
+          "required": false,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "textarea",
+          "type": "textarea",
+          "options": [],
+          "disabled": false
+        },
+        {
+          "value": [
+            {
+              "label": "Financiera",
+              "value": 1
+            },
+            {
+              "label": "Operaciones",
+              "value": 3
+            }
+          ],
+          "key": "products",
+          "label": "Productos",
+          "required": false,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "multiselect",
+          "type": "multiselect",
+          "options": [
+            {
+              "label": "Financiera",
+              "value": 1
+            },
+            {
+              "label": "Gerencia",
+              "value": 2
+            },
+            {
+              "label": "Operaciones",
+              "value": 3
+            }
+          ],
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "id": "004",
+      "templateForm": [
+        {
+          "value": "Codigos postales",
+          "key": "name",
+          "label": "Nombre",
+          "required": false,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "text",
+          "type": "text",
+          "options": [],
+          "disabled": false
+        },
+        {
+          "value": "800",
+          "key": "registers",
+          "label": "Registros",
+          "required": true,
+          "min": 5,
+          "max": 8,
+          "email": false,
+          "regExp": null,
+          "controlType": "text",
+          "type": "text",
+          "options": [],
+          "disabled": false
+        },
+        {
+          "value": "Banca",
+          "key": "productsOf",
+          "label": "Productos",
+          "required": true,
+          "min": 5,
+          "max": 3,
+          "email": false,
+          "regExp": null,
+          "controlType": "text",
+          "type": "text",
+          "options": [],
+          "disabled": false
+        },
+        {
+          "value": "2023-01-02",
+          "key": "creationDate",
+          "label": "Fecha de creación",
+          "required": true,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "calendar",
+          "type": "calendar",
+          "disabled": false,
+          "options": []
+        },
+        {
+          "value": "2024-02-15",
+          "key": "lastModificationDate",
+          "label": "Fecha de última modificación",
+          "required": true,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "calendar",
+          "type": "calendar",
+          "options": [],
+          "disabled": false
+        },
+        {
+          "value": 1,
+          "key": "status",
+          "label": "Estatus",
+          "required": true,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "dropdown",
+          "type": "dropdown",
+          "options": [
+            {
+              "label": "Activo",
+              "value": 1
+            },
+            {
+              "label": "Inactivo",
+              "value": 2
+            }
+          ],
+          "disabled": false
+        },
+        {
+          "value": "+525502443210",
+          "key": "phone",
+          "label": "Teléfono",
+          "required": false,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "number",
+          "type": "phone",
+          "options": [],
+          "disabled": false
+        },
+        {
+          "value": "Codigos postales",
+          "key": "description",
+          "label": "Descripción",
+          "required": false,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "textarea",
+          "type": "textarea",
+          "options": [],
+          "disabled": false
+        },
+        {
+          "value": [
+            {
+              "label": "Financiera",
+              "value": 1
+            },
+            {
+              "label": "Gerencia",
+              "value": 2
+            },
+            {
+              "label": "Operaciones",
+              "value": 3
+            }
+          ],
+          "key": "products",
+          "label": "Productos",
+          "required": false,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "multiselect",
+          "type": "multiselect",
+          "options": [
+            {
+              "label": "Financiera",
+              "value": 1
+            },
+            {
+              "label": "Gerencia",
+              "value": 2
+            },
+            {
+              "label": "Operaciones",
+              "value": 3
+            }
+          ],
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "id": "005",
+      "templateForm": [
+        {
+          "value": "Riesgos",
+          "key": "name",
+          "label": "Nombre",
+          "required": false,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "text",
+          "type": "text",
+          "options": [],
+          "disabled": false
+        },
+        {
+          "value": "500",
+          "key": "registers",
+          "label": "Registros",
+          "required": true,
+          "min": 5,
+          "max": 8,
+          "email": false,
+          "regExp": null,
+          "controlType": "text",
+          "type": "text",
+          "options": [],
+          "disabled": false
+        },
+        {
+          "value": "Financiera",
+          "key": "productsOf",
+          "label": "Productos",
+          "required": true,
+          "min": 5,
+          "max": 3,
+          "email": false,
+          "regExp": null,
+          "controlType": "text",
+          "type": "text",
+          "options": [],
+          "disabled": false
+        },
+        {
+          "value": "2023-05-14",
+          "key": "creationDate",
+          "label": "Fecha de creación",
+          "required": true,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "calendar",
+          "type": "calendar",
+          "disabled": false,
+          "options": []
+        },
+        {
+          "value": "2024-06-05",
+          "key": "lastModificationDate",
+          "label": "Fecha de última modificación",
+          "required": true,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "calendar",
+          "type": "calendar",
+          "options": [],
+          "disabled": false
+        },
+        {
+          "value": 1,
+          "key": "status",
+          "label": "Estatus",
+          "required": true,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "dropdown",
+          "type": "dropdown",
+          "options": [
+            {
+              "label": "Activo",
+              "value": 1
+            },
+            {
+              "label": "Inactivo",
+              "value": 2
+            }
+          ],
+          "disabled": false
+        },
+        {
+          "value": "+525555555555",
+          "key": "phone",
+          "label": "Teléfono",
+          "required": false,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "number",
+          "type": "phone",
+          "options": [],
+          "disabled": false
+        },
+        {
+          "value": "Riesgos",
+          "key": "description",
+          "label": "Descripción",
+          "required": false,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "textarea",
+          "type": "textarea",
+          "options": [],
+          "disabled": false
+        },
+        {
+          "value": [
+            {
+              "label": "Financiera",
+              "value": 1
+            },
+            {
+              "label": "Operaciones",
+              "value": 3
+            }
+          ],
+          "key": "products",
+          "label": "Productos",
+          "required": false,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "multiselect",
+          "type": "multiselect",
+          "options": [
+            {
+              "label": "Financiera",
+              "value": 1
+            },
+            {
+              "label": "Gerencia",
+              "value": 2
+            },
+            {
+              "label": "Operaciones",
+              "value": 3
+            }
+          ],
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "id": "006",
+      "templateForm": [
+        {
+          "value": "Giro comercial",
+          "key": "name",
+          "label": "Nombre",
+          "required": false,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "text",
+          "type": "text",
+          "options": [],
+          "disabled": false
+        },
+        {
+          "value": "200",
+          "key": "registers",
+          "label": "Registros",
+          "required": true,
+          "min": 5,
+          "max": 8,
+          "email": false,
+          "regExp": null,
+          "controlType": "text",
+          "type": "text",
+          "options": [],
+          "disabled": false
+        },
+        {
+          "value": "Comercial",
+          "key": "productsOf",
+          "label": "Productos",
+          "required": true,
+          "min": 5,
+          "max": 3,
+          "email": false,
+          "regExp": null,
+          "controlType": "text",
+          "type": "text",
+          "options": [],
+          "disabled": false
+        },
+        {
+          "value": "2023-03-29",
+          "key": "creationDate",
+          "label": "Fecha de creación",
+          "required": true,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "calendar",
+          "type": "calendar",
+          "disabled": false,
+          "options": []
+        },
+        {
+          "value": "2024-04-17",
+          "key": "lastModificationDate",
+          "label": "Fecha de última modificación",
+          "required": true,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "calendar",
+          "type": "calendar",
+          "options": [],
+          "disabled": false
+        },
+        {
+          "value": 1,
+          "key": "status",
+          "label": "Estatus",
+          "required": true,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "dropdown",
+          "type": "dropdown",
+          "options": [
+            {
+              "label": "Activo",
+              "value": 1
+            },
+            {
+              "label": "Inactivo",
+              "value": 2
+            }
+          ],
+          "disabled": false
+        },
+        {
+          "value": "+525542310055",
+          "key": "phone",
+          "label": "Teléfono",
+          "required": false,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "number",
+          "type": "phone",
+          "options": [],
+          "disabled": false
+        },
+        {
+          "value": "Giro comercial",
+          "key": "description",
+          "label": "Descripción",
+          "required": false,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "textarea",
+          "type": "textarea",
+          "options": [],
+          "disabled": false
+        },
+        {
+          "value": [
+            {
+              "label": "Financiera",
+              "value": 1
+            }
+          ],
+          "key": "products",
+          "label": "Productos",
+          "required": false,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "multiselect",
+          "type": "multiselect",
+          "options": [
+            {
+              "label": "Financiera",
+              "value": 1
+            },
+            {
+              "label": "Gerencia",
+              "value": 2
+            },
+            {
+              "label": "Operaciones",
+              "value": 3
+            }
+          ],
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "id": "007",
+      "templateForm": [
+        {
+          "value": "Ventas por internet",
+          "key": "name",
+          "label": "Nombre",
+          "required": false,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "text",
+          "type": "text",
+          "options": [],
+          "disabled": false
+        },
+        {
+          "value": "6560",
+          "key": "registers",
+          "label": "Registros",
+          "required": true,
+          "min": 5,
+          "max": 8,
+          "email": false,
+          "regExp": null,
+          "controlType": "text",
+          "type": "text",
+          "options": [],
+          "disabled": false
+        },
+        {
+          "value": "Comercial",
+          "key": "productsOf",
+          "label": "Productos",
+          "required": true,
+          "min": 5,
+          "max": 3,
+          "email": false,
+          "regExp": null,
+          "controlType": "text",
+          "type": "text",
+          "options": [],
+          "disabled": false
+        },
+        {
+          "value": "2024-10-01",
+          "key": "creationDate",
+          "label": "Fecha de creación",
+          "required": true,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "calendar",
+          "type": "calendar",
+          "disabled": false,
+          "options": []
+        },
+        {
+          "value": "2024-10-20",
+          "key": "lastModificationDate",
+          "label": "Fecha de última modificación",
+          "required": true,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "calendar",
+          "type": "calendar",
+          "options": [],
+          "disabled": false
+        },
+        {
+          "value": 1,
+          "key": "status",
+          "label": "Estatus",
+          "required": true,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "dropdown",
+          "type": "dropdown",
+          "options": [
+            {
+              "label": "Activo",
+              "value": 1
+            },
+            {
+              "label": "Inactivo",
+              "value": 2
+            }
+          ],
+          "disabled": false
+        },
+        {
+          "value": "+525539008733",
+          "key": "phone",
+          "label": "Teléfono",
+          "required": false,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "number",
+          "type": "phone",
+          "options": [],
+          "disabled": false
+        },
+        {
+          "value": "Venta comercial",
+          "key": "description",
+          "label": "Descripción",
+          "required": false,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "textarea",
+          "type": "textarea",
+          "options": [],
+          "disabled": false
+        },
+        {
+          "value": [
+            {
+              "label": "Financiera",
+              "value": 1
+            },
+            {
+              "label": "Gerencia",
+              "value": 2
+            },
+            {
+              "label": "Operaciones",
+              "value": 3
+            }
+          ],
+          "key": "products",
+          "label": "Productos",
+          "required": false,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "multiselect",
+          "type": "multiselect",
+          "options": [
+            {
+              "label": "Financiera",
+              "value": 1
+            },
+            {
+              "label": "Gerencia",
+              "value": 2
+            },
+            {
+              "label": "Operaciones",
+              "value": 3
+            }
+          ],
+          "disabled": false
+        }
+      ]
+    }
+  ],
+  "editSubCatalogById": [
+    {
+      "id": "001AA01",
+      "startDate": "05/10/2024 02:01 AM",
+      "reference": "prueba",
+      "concept": "Suite Jr - Prueba",
+      "status": "Pagado",
+      "import": "$123.00MXN",
+      "user": "Casimerito",
+      "branch": "City Express Cuautitlán",
+      "templateForm": [
+        {
+          "value": "2024-04-11",
+          "key": "startDate",
+          "label": "Fecha registro",
+          "required": false,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "calendar",
+          "type": "calendar",
+          "options": [],
+          "disabled": false
+        },
+        {
+          "value": "Prueba",
+          "key": "reference",
+          "label": "Referencia",
+          "required": true,
+          "min": 5,
+          "max": 8,
+          "email": false,
+          "regExp": null,
+          "controlType": "text",
+          "type": "text",
+          "options": [],
+          "disabled": false
+        },
+        {
+          "value": "Suite Jr - Prueba",
+          "key": "concept",
+          "label": "Concepto",
+          "required": true,
+          "min": 5,
+          "max": 3,
+          "email": false,
+          "regExp": null,
+          "controlType": "text",
+          "type": "text",
+          "options": [],
+          "disabled": false
+        },
+        {
+          "value": 3,
+          "key": "status",
+          "label": "Estatus",
+          "required": true,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "dropdown",
+          "type": "dropdown",
+          "disabled": false,
+          "options": [
+            {
+              "label": "Revisión",
+              "value": 1
+            },
+            {
+              "label": "Cancelado",
+              "value": 2
+            },
+            {
+              "label": "Pagado",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "value": "$123.00MXN",
+          "key": "import",
+          "label": "Importe",
+          "required": true,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "text",
+          "type": "text",
+          "options": [],
+          "disabled": false
+        },
+        {
+          "value": "Casimerito",
+          "key": "user",
+          "label": "Usuario",
+          "required": true,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "text",
+          "type": "text",
+          "options": [],
+          "disabled": false
+        },
+        {
+          "value": "City Express Cuautitlán",
+          "key": "branch",
+          "label": "Sucursal",
+          "required": true,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "text",
+          "type": "text",
+          "options": [],
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "id": "001BB01",
+      "reference": "Prueba de modelo",
+      "concept": "Modelo de operación",
+      "status": "Revisión",
+      "import": "$13.00",
+      "templateForm": [
+        {
+          "value": "Prueba",
+          "key": "reference",
+          "label": "Referencia",
+          "required": true,
+          "min": 5,
+          "max": 8,
+          "email": false,
+          "regExp": null,
+          "controlType": "text",
+          "type": "text",
+          "options": [],
+          "disabled": false
+        },
+        {
+          "value": "Modelo de operación",
+          "key": "concept",
+          "label": "Concepto",
+          "required": true,
+          "min": 5,
+          "max": 3,
+          "email": false,
+          "regExp": null,
+          "controlType": "text",
+          "type": "text",
+          "options": [],
+          "disabled": false
+        },
+        {
+          "value": 1,
+          "key": "status",
+          "label": "Estatus",
+          "required": true,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "dropdown",
+          "type": "dropdown",
+          "disabled": false,
+          "options": [
+            {
+              "label": "Revisión",
+              "value": 1
+            },
+            {
+              "label": "Cancelado",
+              "value": 2
+            },
+            {
+              "label": "Pagado",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "value": "$13.00",
+          "key": "import",
+          "label": "Importe",
+          "required": true,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "text",
+          "type": "text",
+          "options": [],
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "id": "001CC01",
+      "reference": "RI 001",
+      "concept": "Riesgo de credito",
+      "status": "Revisado",
+      "import": "$3456.00 MXN",
+      "user": "Cristobal Vences",
+      "templateForm": [
+        {
+          "value": "RI 001",
+          "key": "reference",
+          "label": "Referencia",
+          "required": true,
+          "min": 5,
+          "max": 8,
+          "email": false,
+          "regExp": null,
+          "controlType": "text",
+          "type": "text",
+          "options": [],
+          "disabled": false
+        },
+        {
+          "value": "Riesgo de credito",
+          "key": "concept",
+          "label": "Concepto",
+          "required": true,
+          "min": 5,
+          "max": 3,
+          "email": false,
+          "regExp": null,
+          "controlType": "text",
+          "type": "text",
+          "options": [],
+          "disabled": false
+        },
+        {
+          "value": 1,
+          "key": "status",
+          "label": "Estatus",
+          "required": true,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "dropdown",
+          "type": "dropdown",
+          "disabled": false,
+          "options": [
+            {
+              "label": "Revisado",
+              "value": 1
+            },
+            {
+              "label": "Cancelado",
+              "value": 2
+            },
+            {
+              "label": "Pagado",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "value": "$3456.00 MXN",
+          "key": "import",
+          "label": "Importe",
+          "required": true,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "text",
+          "type": "text",
+          "options": [],
+          "disabled": false
+        },
+        {
+          "value": "Cristobal Vences",
+          "key": "user",
+          "label": "Usuario",
+          "required": true,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "text",
+          "type": "text",
+          "options": [],
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "id": "001AB01",
+      "code": "001",
+      "zipCode": "01101",
+      "settlement": "Estadio Azteca",
+      "typeSettlement": "Colonia",
+      "municipality": "Pedregal de San Ángel",
+      "state": "Ciudad de México",
+      "city": "Ciudad de México",
+      "zone": "Urbano",
+      "column": "09",
+      "templateForm": [
+        {
+          "value": "001",
+          "key": "code",
+          "label": "Código",
+          "required": false,
+          "min": null,
+          "max": null,
+          "email": true,
+          "regExp": null,
+          "controlType": "text",
+          "type": "text",
+          "options": [],
+          "disabled": false
+        },
+        {
+          "value": "01101",
+          "key": "zipCode",
+          "label": "Código postal",
+          "required": true,
+          "min": 5,
+          "max": 8,
+          "email": false,
+          "regExp": null,
+          "controlType": "number",
+          "type": "number",
+          "options": [],
+          "disabled": false
+        },
+        {
+          "value": "Estadio Azteca",
+          "key": "settlement",
+          "label": "Asentamiento",
+          "required": true,
+          "min": 5,
+          "max": 3,
+          "email": false,
+          "regExp": null,
+          "controlType": "text",
+          "type": "text",
+          "options": [],
+          "disabled": false
+        },
+        {
+          "value": 1,
+          "key": "typeSettlement",
+          "label": "Tipo de asentamiento",
+          "required": true,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "dropdown",
+          "type": "dropdown",
+          "disabled": false,
+          "options": [
+            {
+              "label": "Colonia",
+              "value": 1
+            },
+            {
+              "label": "Fraccionamiento",
+              "value": 2
+            },
+            {
+              "label": "Pueblo",
+              "value": 3
+            },
+            {
+              "label": "Rancho",
+              "value": 4
+            },
+            {
+              "label": "Unidad",
+              "value": 5
+            }
+          ]
+        },
+        {
+          "value": "Pedregal de San Ángel",
+          "key": "municipality",
+          "label": "Municipio",
+          "required": true,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "text",
+          "type": "text",
+          "options": [],
+          "disabled": false
+        },
+        {
+          "value": 5,
+          "key": "state",
+          "label": "Estado",
+          "required": true,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "dropdown",
+          "type": "dropdown",
+          "options": [
+            {
+              "label": "Ciudad de México",
+              "value": 1
+            },
+            {
+              "label": "Rome",
+              "value": 2
+            },
+            {
+              "label": "London",
+              "value": 3
+            },
+            {
+              "label": "Istanbul",
+              "value": 4
+            },
+            {
+              "label": "Paris",
+              "value": 5
+            }
+          ],
+          "disabled": false
+        },
+        {
+          "value": 4,
+          "key": "city",
+          "label": "Ciudad",
+          "required": true,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "dropdown",
+          "type": "dropdown",
+          "options": [
+            {
+              "label": "Ciudad de México",
+              "value": 1
+            },
+            {
+              "label": "Rome",
+              "value": 2
+            },
+            {
+              "label": "London",
+              "value": 3
+            },
+            {
+              "label": "Istanbul",
+              "value": 4
+            },
+            {
+              "label": "Paris",
+              "value": 5
+            }
+          ],
+          "disabled": false
+        },
+        {
+          "value": "Urbano",
+          "key": "zone",
+          "label": "Zona",
+          "required": true,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "text",
+          "type": "text",
+          "options": [],
+          "disabled": false
+        },
+        {
+          "value": "09",
+          "key": "column",
+          "label": "Columna",
+          "required": true,
+          "min": 5,
+          "max": 3,
+          "email": false,
+          "regExp": null,
+          "controlType": "number",
+          "type": "number",
+          "options": [],
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "id": "001AB02",
+      "code": "002",
+      "zipCode": "01102",
+      "settlement": "Estadio Universidad",
+      "typeSettlement": "Colonia",
+      "municipality": "Ciudad CU",
+      "state": "Ciudad de México",
+      "city": "Ciudad de México",
+      "zone": "Urbano",
+      "column": "09",
+      "templateForm": [
+        {
+          "value": "002",
+          "key": "code",
+          "label": "Código",
+          "required": false,
+          "min": null,
+          "max": null,
+          "email": true,
+          "regExp": null,
+          "controlType": "text",
+          "type": "text",
+          "options": [],
+          "disabled": false
+        },
+        {
+          "value": "01102",
+          "key": "zipCode",
+          "label": "Código postal",
+          "required": true,
+          "min": 5,
+          "max": 8,
+          "email": false,
+          "regExp": null,
+          "controlType": "number",
+          "type": "number",
+          "options": [],
+          "disabled": false
+        },
+        {
+          "value": "Estadio Universidad",
+          "key": "settlement",
+          "label": "Asentamiento",
+          "required": true,
+          "min": 5,
+          "max": 3,
+          "email": false,
+          "regExp": null,
+          "controlType": "text",
+          "type": "text",
+          "options": [],
+          "disabled": false
+        },
+        {
+          "value": 1,
+          "key": "typeSettlement",
+          "label": "Tipo de asentamiento",
+          "required": true,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "dropdown",
+          "type": "dropdown",
+          "disabled": false,
+          "options": [
+            {
+              "label": "Colonia",
+              "value": 1
+            },
+            {
+              "label": "Fraccionamiento",
+              "value": 2
+            },
+            {
+              "label": "Pueblo",
+              "value": 3
+            },
+            {
+              "label": "Rancho",
+              "value": 4
+            },
+            {
+              "label": "Unidad",
+              "value": 5
+            }
+          ]
+        },
+        {
+          "value": "Ciudad CU",
+          "key": "municipality",
+          "label": "Municipio",
+          "required": true,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "text",
+          "type": "text",
+          "options": [],
+          "disabled": false
+        },
+        {
+          "value": 1,
+          "key": "state",
+          "label": "Estado",
+          "required": true,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "dropdown",
+          "type": "dropdown",
+          "options": [
+            {
+              "label": "Ciudad de México",
+              "value": 1
+            },
+            {
+              "label": "Rome",
+              "value": 2
+            },
+            {
+              "label": "London",
+              "value": 3
+            },
+            {
+              "label": "Istanbul",
+              "value": 4
+            },
+            {
+              "label": "Paris",
+              "value": 5
+            }
+          ],
+          "disabled": false
+        },
+        {
+          "value": 1,
+          "key": "city",
+          "label": "Ciudad",
+          "required": true,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "dropdown",
+          "type": "dropdown",
+          "options": [
+            {
+              "label": "Ciudad de México",
+              "value": 1
+            },
+            {
+              "label": "Rome",
+              "value": 2
+            },
+            {
+              "label": "London",
+              "value": 3
+            },
+            {
+              "label": "Istanbul",
+              "value": 4
+            },
+            {
+              "label": "Paris",
+              "value": 5
+            }
+          ],
+          "disabled": false
+        },
+        {
+          "value": "Urbano",
+          "key": "zone",
+          "label": "Zona",
+          "required": true,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "text",
+          "type": "text",
+          "options": [],
+          "disabled": false
+        },
+        {
+          "value": "09",
+          "key": "column",
+          "label": "Columna",
+          "required": true,
+          "min": 5,
+          "max": 3,
+          "email": false,
+          "regExp": null,
+          "controlType": "number",
+          "type": "number",
+          "options": [],
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "id": "001BC01",
+      "reference": "Fraude TDC",
+      "concept": "Fraude a BBVA",
+      "status": "Revisión",
+      "import": "$1203.00 MXN",
+      "user": "Cristobal Casas",
+      "templateForm": [
+        {
+          "value": "Prueba",
+          "key": "reference",
+          "label": "Referencia",
+          "required": true,
+          "min": 5,
+          "max": 8,
+          "email": false,
+          "regExp": null,
+          "controlType": "text",
+          "type": "text",
+          "options": [],
+          "disabled": false
+        },
+        {
+          "value": "Fraude a BBVA",
+          "key": "concept",
+          "label": "Concepto",
+          "required": true,
+          "min": 5,
+          "max": 3,
+          "email": false,
+          "regExp": null,
+          "controlType": "text",
+          "type": "text",
+          "options": [],
+          "disabled": false
+        },
+        {
+          "value": 1,
+          "key": "status",
+          "label": "Estatus",
+          "required": true,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "dropdown",
+          "type": "dropdown",
+          "disabled": false,
+          "options": [
+            {
+              "label": "Revisión",
+              "value": 1
+            },
+            {
+              "label": "Cancelado",
+              "value": 2
+            },
+            {
+              "label": "Pagado",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "value": "$1203.00 MXN",
+          "key": "import",
+          "label": "Importe",
+          "required": true,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "text",
+          "type": "text",
+          "options": [],
+          "disabled": false
+        },
+        {
+          "value": "Cristobal Casas",
+          "key": "user",
+          "label": "Usuario",
+          "required": true,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "text",
+          "type": "text",
+          "options": [],
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "id": "001BC02",
+      "reference": "Fraude TDC",
+      "concept": "Fraude a Santander",
+      "status": "Revisión",
+      "import": "$2400.00 MXN",
+      "user": "Alonso Buendía",
+      "templateForm": [
+        {
+          "value": "Prueba",
+          "key": "reference",
+          "label": "Referencia",
+          "required": true,
+          "min": 5,
+          "max": 8,
+          "email": false,
+          "regExp": null,
+          "controlType": "text",
+          "type": "text",
+          "options": [],
+          "disabled": false
+        },
+        {
+          "value": "Fraude a Santander",
+          "key": "concept",
+          "label": "Concepto",
+          "required": true,
+          "min": 5,
+          "max": 3,
+          "email": false,
+          "regExp": null,
+          "controlType": "text",
+          "type": "text",
+          "options": [],
+          "disabled": false
+        },
+        {
+          "value": 3,
+          "key": "status",
+          "label": "Estatus",
+          "required": true,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "dropdown",
+          "type": "dropdown",
+          "disabled": false,
+          "options": [
+            {
+              "label": "Revisión",
+              "value": 1
+            },
+            {
+              "label": "Cancelado",
+              "value": 2
+            },
+            {
+              "label": "Pagado",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "value": "$2400.00 MXN",
+          "key": "import",
+          "label": "Importe",
+          "required": true,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "text",
+          "type": "text",
+          "options": [],
+          "disabled": false
+        },
+        {
+          "value": "Alonso Buendía",
+          "key": "user",
+          "label": "Usuario",
+          "required": true,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "text",
+          "type": "text",
+          "options": [],
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "id": "001CD01",
+      "mcc": "8398",
+      "description": "Beneficencia | Organizaciones de servicio social",
+      "templateForm": [
+        {
+          "value": "8398",
+          "key": "mcc",
+          "label": "MCC",
+          "required": false,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "text",
+          "type": "text",
+          "options": [],
+          "disabled": false
+        },
+        {
+          "value": "Beneficencia | Organizaciones de servicio social",
+          "key": "description",
+          "label": "Descripcion",
+          "required": true,
+          "min": 5,
+          "max": 8,
+          "email": false,
+          "regExp": null,
+          "controlType": "text",
+          "type": "text",
+          "options": [],
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "id": "001CD02",
+      "mcc": "8211",
+      "description": "Eduación básica | Escuelas primarias, secundarias",
+      "templateForm": [
+        {
+          "value": "8211",
+          "key": "mcc",
+          "label": "MCC",
+          "required": false,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "text",
+          "type": "text",
+          "options": [],
+          "disabled": false
+        },
+        {
+          "value": "Eduación básica | Escuelas primarias, secundarias",
+          "key": "description",
+          "label": "Descripcion",
+          "required": true,
+          "min": 5,
+          "max": 8,
+          "email": false,
+          "regExp": null,
+          "controlType": "text",
+          "type": "text",
+          "options": [],
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "id": "001CD03",
+      "mcc": "7424",
+      "description": "Medicos y dentistas | Servicios veterinarios",
+      "templateForm": [
+        {
+          "value": "7424",
+          "key": "mcc",
+          "label": "MCC",
+          "required": false,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "text",
+          "type": "text",
+          "options": [],
+          "disabled": false
+        },
+        {
+          "value": "Medicos y dentistas | Servicios veterinarios",
+          "key": "description",
+          "label": "Descripcion",
+          "required": true,
+          "min": 5,
+          "max": 8,
+          "email": false,
+          "regExp": null,
+          "controlType": "text",
+          "type": "text",
+          "options": [],
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "id": "001CD04",
+      "mcc": "8351",
+      "description": "Guarderia | Servicio de cuidado por día",
+      "templateForm": [
+        {
+          "value": "8351",
+          "key": "mcc",
+          "label": "MCC",
+          "required": false,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "text",
+          "type": "text",
+          "options": [],
+          "disabled": false
+        },
+        {
+          "value": "Guarderia | Servicio de cuidado por día",
+          "key": "description",
+          "label": "Descripcion",
+          "required": true,
+          "min": 5,
+          "max": 8,
+          "email": false,
+          "regExp": null,
+          "controlType": "text",
+          "type": "text",
+          "options": [],
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "id": "001CD05",
+      "mcc": "8398",
+      "description": "Educación superior | Escuelas, colegios, universidades",
+      "templateForm": [
+        {
+          "value": "8398",
+          "key": "mcc",
+          "label": "MCC",
+          "required": false,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "text",
+          "type": "text",
+          "options": [],
+          "disabled": false
+        },
+        {
+          "value": "Educación superior | Escuelas, colegios, universidades",
+          "key": "description",
+          "label": "Descripcion",
+          "required": true,
+          "min": 5,
+          "max": 8,
+          "email": false,
+          "regExp": null,
+          "controlType": "text",
+          "type": "text",
+          "options": [],
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "id": "001CD06",
+      "mcc": "5109",
+      "description": "Gastos de envio | Servicios de mensajería",
+      "templateForm": [
+        {
+          "value": "5109",
+          "key": "mcc",
+          "label": "MCC",
+          "required": false,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "text",
+          "type": "text",
+          "options": [],
+          "disabled": false
+        },
+        {
+          "value": "Gastos de envio | Servicios de mensajería",
+          "key": "description",
+          "label": "Descripcion",
+          "required": true,
+          "min": 5,
+          "max": 8,
+          "email": false,
+          "regExp": null,
+          "controlType": "text",
+          "type": "text",
+          "options": [],
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "id": "001VE01",
+      "name": "Ventas Octubre",
+      "registers": "65460",
+      "products": "Financiera",
+      "creationDate": "2024-04-11",
+      "lastModificationDate": "2024-10-08",
+      "status": "Activo",
+      "phone": "+525539008733",
+      "description": "Venta comercial",
+      "templateForm": [
+        {
+          "value": "Ventas Octubre",
+          "key": "name",
+          "label": "Nombre",
+          "required": false,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "text",
+          "type": "text",
+          "options": [],
+          "disabled": false
+        },
+        {
+          "value": "65460",
+          "key": "registers",
+          "label": "Registros",
+          "required": true,
+          "min": 5,
+          "max": 8,
+          "email": false,
+          "regExp": null,
+          "controlType": "text",
+          "type": "text",
+          "options": [],
+          "disabled": false
+        },
+        {
+          "value": "Financiera",
+          "key": "productsOf",
+          "label": "Productos",
+          "required": true,
+          "min": 5,
+          "max": 3,
+          "email": false,
+          "regExp": null,
+          "controlType": "text",
+          "type": "text",
+          "options": [],
+          "disabled": false
+        },
+        {
+          "value": "2024-04-11",
+          "key": "creationDate",
+          "label": "Fecha de creación",
+          "required": true,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "calendar",
+          "type": "calendar",
+          "disabled": false,
+          "options": []
+        },
+        {
+          "value": "2024-10-08",
+          "key": "lastModificationDate",
+          "label": "Fecha de última modificación",
+          "required": true,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "calendar",
+          "type": "calendar",
+          "options": [],
+          "disabled": false
+        },
+        {
+          "value": 1,
+          "key": "status",
+          "label": "Estatus",
+          "required": true,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "dropdown",
+          "type": "dropdown",
+          "options": [
+            {
+              "label": "Activo",
+              "value": 1
+            },
+            {
+              "label": "Inactivo",
+              "value": 2
+            }
+          ],
+          "disabled": false
+        },
+        {
+          "value": "+525539008733",
+          "key": "phone",
+          "label": "Teléfono",
+          "required": false,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "number",
+          "type": "phone",
+          "options": [],
+          "disabled": false
+        },
+        {
+          "value": "Venta comercial",
+          "key": "description",
+          "label": "Descripción",
+          "required": false,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "textarea",
+          "type": "textarea",
+          "options": [],
+          "disabled": false
+        },
+        {
+          "value": [
+            {
+              "label": "Financiera",
+              "value": 1
+            },
+            {
+              "label": "Gerencia",
+              "value": 2
+            },
+            {
+              "label": "Operaciones",
+              "value": 3
+            }
+          ],
+          "key": "products",
+          "label": "Productos",
+          "required": false,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "multiselect",
+          "type": "multiselect",
+          "options": [
+            {
+              "label": "Financiera",
+              "value": 1
+            },
+            {
+              "label": "Gerencia",
+              "value": 2
+            },
+            {
+              "label": "Operaciones",
+              "value": 3
+            }
+          ],
+          "disabled": false
+        }
+      ]
+    }
+  ],
+  "showSubCatalogById": [
+    {
+      "id": "001AA01",
+      "data": [
+        {
+          "id": "001AA01",
+          "startDate": "05/10/2024",
+          "reference": "prueba",
+          "concept": "Suite Jr - Prueba",
+          "status": "Pagado",
+          "import": "$123.00 MXN",
+          "user": "Casimerito",
+          "branch": "City Express Cuautitlán",
+          "templateForm": [
+            {
+              "value": "05/10/2024",
+              "key": "startDate",
+              "label": "Fecha registro",
+              "required": false,
+              "min": null,
+              "max": null,
+              "email": false,
+              "regExp": null,
+              "controlType": "calendar",
+              "type": "calendar",
+              "options": [],
+              "disabled": true
+            },
+            {
+              "value": "Prueba",
+              "key": "reference",
+              "label": "Referencia",
+              "required": true,
+              "min": 5,
+              "max": 8,
+              "email": false,
+              "regExp": null,
+              "controlType": "text",
+              "type": "text",
+              "options": [],
+              "disabled": true
+            },
+            {
+              "value": "Suite Jr - Prueba",
+              "key": "concept",
+              "label": "Concepto",
+              "required": true,
+              "min": 5,
+              "max": 3,
+              "email": false,
+              "regExp": null,
+              "controlType": "text",
+              "type": "text",
+              "options": [],
+              "disabled": true
+            },
+            {
+              "value": 1,
+              "key": "status",
+              "label": "Estatus",
+              "required": true,
+              "min": null,
+              "max": null,
+              "email": false,
+              "regExp": null,
+              "controlType": "dropdown",
+              "type": "dropdown",
+              "disabled": true,
+              "options": [
+                {
+                  "label": "Pagado",
+                  "value": 1
+                },
+                {
+                  "label": "Cancelado",
+                  "value": 2
+                },
+                {
+                  "label": "Revisión",
+                  "value": 3
+                }
+              ]
+            },
+            {
+              "value": "$123.00MXN",
+              "key": "import",
+              "label": "Importe",
+              "required": true,
+              "min": null,
+              "max": null,
+              "email": false,
+              "regExp": null,
+              "controlType": "text",
+              "type": "text",
+              "options": [],
+              "disabled": true
+            },
+            {
+              "value": "Casimerito",
+              "key": "user",
+              "label": "Usuario",
+              "required": true,
+              "min": null,
+              "max": null,
+              "email": false,
+              "regExp": null,
+              "controlType": "text",
+              "type": "text",
+              "options": [],
+              "disabled": true
+            },
+            {
+              "value": "City Express Cuautitlán",
+              "key": "branch",
+              "label": "Sucursal",
+              "required": true,
+              "min": null,
+              "max": null,
+              "email": false,
+              "regExp": null,
+              "controlType": "text",
+              "type": "text",
+              "options": [],
+              "disabled": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "001BB01",
+      "data": [
+        {
+          "id": "001BB01",
+          "reference": "Prueba de modelo",
+          "concept": "Modelo de operación",
+          "status": "Revisión",
+          "import": "$13.00",
+          "templateForm": [
+            {
+              "value": "Prueba de modelo",
+              "key": "reference",
+              "label": "Referencia",
+              "required": true,
+              "min": 5,
+              "max": 8,
+              "email": false,
+              "regExp": null,
+              "controlType": "text",
+              "type": "text",
+              "options": [],
+              "disabled": true
+            },
+            {
+              "value": "Modelo de operación",
+              "key": "concept",
+              "label": "Concepto",
+              "required": true,
+              "min": 5,
+              "max": 3,
+              "email": false,
+              "regExp": null,
+              "controlType": "text",
+              "type": "text",
+              "options": [],
+              "disabled": true
+            },
+            {
+              "value": 1,
+              "key": "status",
+              "label": "Estatus",
+              "required": true,
+              "min": null,
+              "max": null,
+              "email": false,
+              "regExp": null,
+              "controlType": "dropdown",
+              "type": "dropdown",
+              "disabled": true,
+              "options": [
+                {
+                  "label": "Revisión",
+                  "value": 1
+                },
+                {
+                  "label": "Cancelado",
+                  "value": 2
+                },
+                {
+                  "label": "Pagado",
+                  "value": 3
+                }
+              ]
+            },
+            {
+              "value": "$13.00",
+              "key": "import",
+              "label": "Importe",
+              "required": true,
+              "min": null,
+              "max": null,
+              "email": false,
+              "regExp": null,
+              "controlType": "text",
+              "type": "text",
+              "options": [],
+              "disabled": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "001BC01",
+      "data": [
+        {
+          "id": "001BC01",
+          "reference": "Fraude TDC",
+          "concept": "Fraude a BBVA",
+          "status": "Revisión",
+          "import": "$1203.00 MXN",
+          "user": "Cristobal Casas",
+          "templateForm": [
+            {
+              "value": "Prueba",
+              "key": "reference",
+              "label": "Referencia",
+              "required": true,
+              "min": 5,
+              "max": 8,
+              "email": false,
+              "regExp": null,
+              "controlType": "text",
+              "type": "text",
+              "options": [],
+              "disabled": true
+            },
+            {
+              "value": "Fraude a BBVA",
+              "key": "concept",
+              "label": "Concepto",
+              "required": true,
+              "min": 5,
+              "max": 3,
+              "email": false,
+              "regExp": null,
+              "controlType": "text",
+              "type": "text",
+              "options": [],
+              "disabled": true
+            },
+            {
+              "value": 1,
+              "key": "status",
+              "label": "Estatus",
+              "required": true,
+              "min": null,
+              "max": null,
+              "email": false,
+              "regExp": null,
+              "controlType": "dropdown",
+              "type": "dropdown",
+              "disabled": true,
+              "options": [
+                {
+                  "label": "Revisión",
+                  "value": 1
+                },
+                {
+                  "label": "Cancelado",
+                  "value": 2
+                },
+                {
+                  "label": "Pagado",
+                  "value": 3
+                }
+              ]
+            },
+            {
+              "value": "$1203.00 MXN",
+              "key": "import",
+              "label": "Importe",
+              "required": true,
+              "min": null,
+              "max": null,
+              "email": false,
+              "regExp": null,
+              "controlType": "text",
+              "type": "text",
+              "options": [],
+              "disabled": true
+            },
+            {
+              "value": "Cristobal Casas",
+              "key": "user",
+              "label": "Usuario",
+              "required": true,
+              "min": null,
+              "max": null,
+              "email": false,
+              "regExp": null,
+              "controlType": "text",
+              "type": "text",
+              "options": [],
+              "disabled": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "001BC02",
+      "data": [
+        {
+          "id": "001BC02",
+          "reference": "Fraude TDC",
+          "concept": "Fraude a Santander",
+          "status": "Revisión",
+          "import": "$2400.00 MXN",
+          "user": "Alonso Buendía",
+          "templateForm": [
+            {
+              "value": "Prueba",
+              "key": "reference",
+              "label": "Referencia",
+              "required": true,
+              "min": 5,
+              "max": 8,
+              "email": false,
+              "regExp": null,
+              "controlType": "text",
+              "type": "text",
+              "options": [],
+              "disabled": true
+            },
+            {
+              "value": "Fraude a Santander",
+              "key": "concept",
+              "label": "Concepto",
+              "required": true,
+              "min": 5,
+              "max": 3,
+              "email": false,
+              "regExp": null,
+              "controlType": "text",
+              "type": "text",
+              "options": [],
+              "disabled": true
+            },
+            {
+              "value": 2,
+              "key": "status",
+              "label": "Estatus",
+              "required": true,
+              "min": null,
+              "max": null,
+              "email": false,
+              "regExp": null,
+              "controlType": "dropdown",
+              "type": "dropdown",
+              "disabled": true,
+              "options": [
+                {
+                  "label": "Pagado",
+                  "value": 1
+                },
+                {
+                  "label": "Cancelado",
+                  "value": 2
+                },
+                {
+                  "label": "Revisión",
+                  "value": 3
+                }
+              ]
+            },
+            {
+              "value": "$2400.00 MXN",
+              "key": "import",
+              "label": "Importe",
+              "required": true,
+              "min": null,
+              "max": null,
+              "email": false,
+              "regExp": null,
+              "controlType": "text",
+              "type": "text",
+              "options": [],
+              "disabled": true
+            },
+            {
+              "value": "Alonso Buendía",
+              "key": "user",
+              "label": "Usuario",
+              "required": true,
+              "min": null,
+              "max": null,
+              "email": false,
+              "regExp": null,
+              "controlType": "text",
+              "type": "text",
+              "options": [],
+              "disabled": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "001AB01",
+      "data": [
+        {
+          "id": "001AB01",
+          "code": "001",
+          "zipCode": "01101",
+          "settlement": "Estadio Azteca",
+          "typeSettlement": "Colonia",
+          "municipality": "Pedregal de San Ángel",
+          "state": "Ciudad de México",
+          "city": "Ciudad de México",
+          "zone": "Urbano",
+          "column": "09",
+          "templateForm": [
+            {
+              "value": "001",
+              "key": "code",
+              "label": "Código",
+              "required": false,
+              "min": null,
+              "max": null,
+              "email": false,
+              "regExp": null,
+              "controlType": "text",
+              "type": "text",
+              "options": [],
+              "disabled": true
+            },
+            {
+              "value": "01101",
+              "key": "zipCode",
+              "label": "Código postal",
+              "required": true,
+              "min": 5,
+              "max": 8,
+              "email": false,
+              "regExp": null,
+              "controlType": "number",
+              "type": "number",
+              "options": [],
+              "disabled": true
+            },
+            {
+              "value": "Estadio Azteca",
+              "key": "settlement",
+              "label": "Asentamiento",
+              "required": true,
+              "min": 5,
+              "max": 3,
+              "email": false,
+              "regExp": null,
+              "controlType": "text",
+              "type": "text",
+              "options": [],
+              "disabled": true
+            },
+            {
+              "value": 1,
+              "key": "typeSettlement",
+              "label": "Tipo de asentamiento",
+              "required": true,
+              "min": null,
+              "max": null,
+              "email": false,
+              "regExp": null,
+              "controlType": "dropdown",
+              "type": "dropdown",
+              "disabled": true,
+              "options": [
+                {
+                  "label": "Colonia",
+                  "value": 1
+                },
+                {
+                  "label": "Fraccionamiento",
+                  "value": 2
+                },
+                {
+                  "label": "Pueblo",
+                  "value": 3
+                },
+                {
+                  "label": "Rancho",
+                  "value": 4
+                },
+                {
+                  "label": "Unidad",
+                  "value": 5
+                }
+              ]
+            },
+            {
+              "value": "Pedregal de San Ángel",
+              "key": "municipality",
+              "label": "Municipio",
+              "required": true,
+              "min": null,
+              "max": null,
+              "email": false,
+              "regExp": null,
+              "controlType": "text",
+              "type": "text",
+              "options": [],
+              "disabled": true
+            },
+            {
+              "value": 5,
+              "key": "state",
+              "label": "Estado",
+              "required": true,
+              "min": null,
+              "max": null,
+              "email": false,
+              "regExp": null,
+              "controlType": "dropdown",
+              "type": "dropdown",
+              "options": [
+                {
+                  "label": "New York",
+                  "value": 1
+                },
+                {
+                  "label": "Rome",
+                  "value": 2
+                },
+                {
+                  "label": "London",
+                  "value": 3
+                },
+                {
+                  "label": "Istanbul",
+                  "value": 4
+                },
+                {
+                  "label": "Paris",
+                  "value": 5
+                }
+              ],
+              "disabled": true
+            },
+            {
+              "value": 4,
+              "key": "city",
+              "label": "Ciudad",
+              "required": true,
+              "min": null,
+              "max": null,
+              "email": false,
+              "regExp": null,
+              "controlType": "dropdown",
+              "type": "dropdown",
+              "options": [
+                {
+                  "label": "New York",
+                  "value": 1
+                },
+                {
+                  "label": "Rome",
+                  "value": 2
+                },
+                {
+                  "label": "London",
+                  "value": 3
+                },
+                {
+                  "label": "Istanbul",
+                  "value": 4
+                },
+                {
+                  "label": "Paris",
+                  "value": 5
+                }
+              ],
+              "disabled": true
+            },
+            {
+              "value": "Urbano",
+              "key": "zone",
+              "label": "Zona",
+              "required": true,
+              "min": null,
+              "max": null,
+              "email": false,
+              "regExp": null,
+              "controlType": "text",
+              "type": "text",
+              "options": [],
+              "disabled": true
+            },
+            {
+              "value": "09",
+              "key": "column",
+              "label": "Columna",
+              "required": true,
+              "min": 5,
+              "max": 3,
+              "email": false,
+              "regExp": null,
+              "controlType": "number",
+              "type": "number",
+              "options": [],
+              "disabled": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "001AB02",
+      "data": [
+        {
+          "id": "001AB02",
+          "code": "002",
+          "zipCode": "01102",
+          "settlement": "Estadio Universidad",
+          "typeSettlement": "Colonia",
+          "municipality": "Ciudad CU",
+          "state": "Ciudad de México",
+          "city": "Ciudad de México",
+          "zone": "Urbano",
+          "column": "09",
+          "templateForm": [
+            {
+              "value": "002",
+              "key": "code",
+              "label": "Código",
+              "required": false,
+              "min": null,
+              "max": null,
+              "email": true,
+              "regExp": null,
+              "controlType": "text",
+              "type": "text",
+              "options": [],
+              "disabled": true
+            },
+            {
+              "value": "01102",
+              "key": "zipCode",
+              "label": "Código postal",
+              "required": true,
+              "min": 5,
+              "max": 8,
+              "email": false,
+              "regExp": null,
+              "controlType": "number",
+              "type": "number",
+              "options": [],
+              "disabled": true
+            },
+            {
+              "value": "Estadio Universidad",
+              "key": "settlement",
+              "label": "Asentamiento",
+              "required": true,
+              "min": 5,
+              "max": 3,
+              "email": false,
+              "regExp": null,
+              "controlType": "text",
+              "type": "text",
+              "options": [],
+              "disabled": true
+            },
+            {
+              "value": 1,
+              "key": "typeSettlement",
+              "label": "Tipo de asentamiento",
+              "required": true,
+              "min": null,
+              "max": null,
+              "email": false,
+              "regExp": null,
+              "controlType": "dropdown",
+              "type": "dropdown",
+              "disabled": true,
+              "options": [
+                {
+                  "label": "Colonia",
+                  "value": 1
+                },
+                {
+                  "label": "Fraccionamiento",
+                  "value": 2
+                },
+                {
+                  "label": "Pueblo",
+                  "value": 3
+                },
+                {
+                  "label": "Rancho",
+                  "value": 4
+                },
+                {
+                  "label": "Unidad",
+                  "value": 5
+                }
+              ]
+            },
+            {
+              "value": "Ciudad CU",
+              "key": "municipality",
+              "label": "Municipio",
+              "required": true,
+              "min": null,
+              "max": null,
+              "email": false,
+              "regExp": null,
+              "controlType": "text",
+              "type": "text",
+              "options": [],
+              "disabled": true
+            },
+            {
+              "value": 1,
+              "key": "state",
+              "label": "Estado",
+              "required": true,
+              "min": null,
+              "max": null,
+              "email": false,
+              "regExp": null,
+              "controlType": "dropdown",
+              "type": "dropdown",
+              "options": [
+                {
+                  "label": "Ciudad de México",
+                  "value": 1
+                },
+                {
+                  "label": "Rome",
+                  "value": 2
+                },
+                {
+                  "label": "London",
+                  "value": 3
+                },
+                {
+                  "label": "Istanbul",
+                  "value": 4
+                },
+                {
+                  "label": "Paris",
+                  "value": 5
+                }
+              ],
+              "disabled": true
+            },
+            {
+              "value": 1,
+              "key": "city",
+              "label": "Ciudad",
+              "required": true,
+              "min": null,
+              "max": null,
+              "email": false,
+              "regExp": null,
+              "controlType": "dropdown",
+              "type": "dropdown",
+              "options": [
+                {
+                  "label": "Ciudad de México",
+                  "value": 1
+                },
+                {
+                  "label": "Rome",
+                  "value": 2
+                },
+                {
+                  "label": "London",
+                  "value": 3
+                },
+                {
+                  "label": "Istanbul",
+                  "value": 4
+                },
+                {
+                  "label": "Paris",
+                  "value": 5
+                }
+              ],
+              "disabled": true
+            },
+            {
+              "value": "Urbano",
+              "key": "zone",
+              "label": "Zona",
+              "required": true,
+              "min": null,
+              "max": null,
+              "email": false,
+              "regExp": null,
+              "controlType": "text",
+              "type": "text",
+              "options": [],
+              "disabled": true
+            },
+            {
+              "value": "09",
+              "key": "column",
+              "label": "Columna",
+              "required": true,
+              "min": 5,
+              "max": 3,
+              "email": false,
+              "regExp": null,
+              "controlType": "number",
+              "type": "number",
+              "options": [],
+              "disabled": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "001CC01",
+      "data": [
+        {
+          "id": "001CC01",
+          "reference": "RI 001",
+          "concept": "Riesgo de credito",
+          "status": "Revisado",
+          "import": "$3456.00 MXN",
+          "user": "Cristobal Vences",
+          "templateForm": [
+            {
+              "value": "RI 001",
+              "key": "reference",
+              "label": "Referencia",
+              "required": true,
+              "min": 5,
+              "max": 8,
+              "email": false,
+              "regExp": null,
+              "controlType": "text",
+              "type": "text",
+              "options": [],
+              "disabled": true
+            },
+            {
+              "value": "Riesgo de credito",
+              "key": "concept",
+              "label": "Concepto",
+              "required": true,
+              "min": 5,
+              "max": 3,
+              "email": false,
+              "regExp": null,
+              "controlType": "text",
+              "type": "text",
+              "options": [],
+              "disabled": true
+            },
+            {
+              "value": 1,
+              "key": "status",
+              "label": "Estatus",
+              "required": true,
+              "min": null,
+              "max": null,
+              "email": false,
+              "regExp": null,
+              "controlType": "dropdown",
+              "type": "dropdown",
+              "disabled": true,
+              "options": [
+                {
+                  "label": "Revisado",
+                  "value": 1
+                },
+                {
+                  "label": "Cancelado",
+                  "value": 2
+                },
+                {
+                  "label": "Pagado",
+                  "value": 3
+                }
+              ]
+            },
+            {
+              "value": "$3456.00 MXN",
+              "key": "import",
+              "label": "Importe",
+              "required": true,
+              "min": null,
+              "max": null,
+              "email": false,
+              "regExp": null,
+              "controlType": "text",
+              "type": "text",
+              "options": [],
+              "disabled": true
+            },
+            {
+              "value": "Cristobal Vences",
+              "key": "user",
+              "label": "Usuario",
+              "required": true,
+              "min": null,
+              "max": null,
+              "email": false,
+              "regExp": null,
+              "controlType": "text",
+              "type": "text",
+              "options": [],
+              "disabled": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "001CD01",
+      "data": [
+        {
+          "id": "001CD01",
+          "mcc": "8398",
+          "description": "Beneficencia | Organizaciones de servicio social",
+          "templateForm": [
+            {
+              "value": "8398",
+              "key": "mcc",
+              "label": "MCC",
+              "required": false,
+              "min": null,
+              "max": null,
+              "email": false,
+              "regExp": null,
+              "controlType": "text",
+              "type": "text",
+              "options": [],
+              "disabled": true
+            },
+            {
+              "value": "Beneficencia | Organizaciones de servicio social",
+              "key": "description",
+              "label": "Descripcion",
+              "required": true,
+              "min": 5,
+              "max": 8,
+              "email": false,
+              "regExp": null,
+              "controlType": "text",
+              "type": "text",
+              "options": [],
+              "disabled": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "001CD02",
+      "data": [
+        {
+          "id": "001CD02",
+          "mcc": "8211",
+          "description": "Eduación básica | Escuelas primarias, secundarias",
+          "templateForm": [
+            {
+              "value": "8211",
+              "key": "mcc",
+              "label": "MCC",
+              "required": false,
+              "min": null,
+              "max": null,
+              "email": false,
+              "regExp": null,
+              "controlType": "text",
+              "type": "text",
+              "options": [],
+              "disabled": true
+            },
+            {
+              "value": "Eduación básica | Escuelas primarias, secundarias",
+              "key": "description",
+              "label": "Descripcion",
+              "required": true,
+              "min": 5,
+              "max": 8,
+              "email": false,
+              "regExp": null,
+              "controlType": "text",
+              "type": "text",
+              "options": [],
+              "disabled": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "001CD03",
+      "data": [
+        {
+          "id": "001CD03",
+          "mcc": "7424",
+          "description": "Medicos y dentistas | Servicios veterinarios",
+          "templateForm": [
+            {
+              "value": "7424",
+              "key": "mcc",
+              "label": "MCC",
+              "required": false,
+              "min": null,
+              "max": null,
+              "email": false,
+              "regExp": null,
+              "controlType": "text",
+              "type": "text",
+              "options": [],
+              "disabled": true
+            },
+            {
+              "value": "Medicos y dentistas | Servicios veterinarios",
+              "key": "description",
+              "label": "Descripcion",
+              "required": true,
+              "min": 5,
+              "max": 8,
+              "email": false,
+              "regExp": null,
+              "controlType": "text",
+              "type": "text",
+              "options": [],
+              "disabled": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "001CD04",
+      "data": [
+        {
+          "id": "001CD04",
+          "mcc": "8351",
+          "description": "Guarderia | Servicio de cuidado por día",
+          "templateForm": [
+            {
+              "value": "8351",
+              "key": "mcc",
+              "label": "MCC",
+              "required": false,
+              "min": null,
+              "max": null,
+              "email": false,
+              "regExp": null,
+              "controlType": "text",
+              "type": "text",
+              "options": [],
+              "disabled": true
+            },
+            {
+              "value": "Guarderia | Servicio de cuidado por día",
+              "key": "description",
+              "label": "Descripcion",
+              "required": true,
+              "min": 5,
+              "max": 8,
+              "email": false,
+              "regExp": null,
+              "controlType": "text",
+              "type": "text",
+              "options": [],
+              "disabled": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "001CD05",
+      "data": [
+        {
+          "id": "001CD05",
+          "mcc": "8398",
+          "description": "Educación superior | Escuelas, colegios, universidades",
+          "templateForm": [
+            {
+              "value": "8398",
+              "key": "mcc",
+              "label": "MCC",
+              "required": false,
+              "min": null,
+              "max": null,
+              "email": false,
+              "regExp": null,
+              "controlType": "text",
+              "type": "text",
+              "options": [],
+              "disabled": true
+            },
+            {
+              "value": "Educación superior | Escuelas, colegios, universidades",
+              "key": "description",
+              "label": "Descripcion",
+              "required": true,
+              "min": 5,
+              "max": 8,
+              "email": false,
+              "regExp": null,
+              "controlType": "text",
+              "type": "text",
+              "options": [],
+              "disabled": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "001CD06",
+      "data": [
+        {
+          "id": "001CD06",
+          "mcc": "5109",
+          "description": "Gastos de envio | Servicios de mensajería",
+          "templateForm": [
+            {
+              "value": "5109",
+              "key": "mcc",
+              "label": "MCC",
+              "required": false,
+              "min": null,
+              "max": null,
+              "email": false,
+              "regExp": null,
+              "controlType": "text",
+              "type": "text",
+              "options": [],
+              "disabled": true
+            },
+            {
+              "value": "Gastos de envio | Servicios de mensajería",
+              "key": "description",
+              "label": "Descripcion",
+              "required": true,
+              "min": 5,
+              "max": 8,
+              "email": false,
+              "regExp": null,
+              "controlType": "text",
+              "type": "text",
+              "options": [],
+              "disabled": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "001VE01",
+      "data": [
+        {
+          "id": "001VE01",
+          "name": "Ventas Octubre",
+          "registers": "65460",
+          "products": "Financiera",
+          "creationDate": "2024-04-11",
+          "lastModificationDate": "2024-10-08",
+          "status": "Activo",
+          "phone": "+525539008733",
+          "description": "Venta comercial",
+          "templateForm": [
+            {
+              "value": "Ventas Octubre",
+              "key": "name",
+              "label": "Nombre",
+              "required": false,
+              "min": null,
+              "max": null,
+              "email": false,
+              "regExp": null,
+              "controlType": "text",
+              "type": "text",
+              "options": [],
+              "disabled": true
+            },
+            {
+              "value": "65460",
+              "key": "registers",
+              "label": "Registros",
+              "required": true,
+              "min": 5,
+              "max": 8,
+              "email": false,
+              "regExp": null,
+              "controlType": "text",
+              "type": "text",
+              "options": [],
+              "disabled": true
+            },
+            {
+              "value": "Financiera",
+              "key": "productsOf",
+              "label": "Productos",
+              "required": true,
+              "min": 5,
+              "max": 3,
+              "email": false,
+              "regExp": null,
+              "controlType": "text",
+              "type": "text",
+              "options": [],
+              "disabled": true
+            },
+            {
+              "value": "2024-04-11",
+              "key": "creationDate",
+              "label": "Fecha de creación",
+              "required": true,
+              "min": null,
+              "max": null,
+              "email": false,
+              "regExp": null,
+              "controlType": "calendar",
+              "type": "calendar",
+              "disabled": true,
+              "options": []
+            },
+            {
+              "value": "2024-10-08",
+              "key": "lastModificationDate",
+              "label": "Fecha de última modificación",
+              "required": true,
+              "min": null,
+              "max": null,
+              "email": false,
+              "regExp": null,
+              "controlType": "calendar",
+              "type": "calendar",
+              "options": [],
+              "disabled": true
+            },
+            {
+              "value": 1,
+              "key": "status",
+              "label": "Estatus",
+              "required": true,
+              "min": null,
+              "max": null,
+              "email": false,
+              "regExp": null,
+              "controlType": "dropdown",
+              "type": "dropdown",
+              "options": [
+                {
+                  "label": "Activo",
+                  "value": 1
+                },
+                {
+                  "label": "Inactivo",
+                  "value": 2
+                }
+              ],
+              "disabled": true
+            },
+            {
+              "value": "+525539008733",
+              "key": "phone",
+              "label": "Teléfono",
+              "required": false,
+              "min": null,
+              "max": null,
+              "email": false,
+              "regExp": null,
+              "controlType": "number",
+              "type": "phone",
+              "options": [],
+              "disabled": true
+            },
+            {
+              "value": "Venta comercial",
+              "key": "description",
+              "label": "Descripción",
+              "required": false,
+              "min": null,
+              "max": null,
+              "email": false,
+              "regExp": null,
+              "controlType": "textarea",
+              "type": "textarea",
+              "options": [],
+              "disabled": true
+            },
+            {
+              "value": [
+                {
+                  "label": "Financiera",
+                  "value": 1
+                },
+                {
+                  "label": "Gerencia",
+                  "value": 2
+                },
+                {
+                  "label": "Operaciones",
+                  "value": 3
+                }
+              ],
+              "key": "products",
+              "label": "Productos",
+              "required": false,
+              "min": null,
+              "max": null,
+              "email": false,
+              "regExp": null,
+              "controlType": "multiselect",
+              "type": "multiselect",
+              "options": [
+                {
+                  "label": "Financiera",
+                  "value": 1
+                },
+                {
+                  "label": "Gerencia",
+                  "value": 2
+                },
+                {
+                  "label": "Operaciones",
+                  "value": 3
+                }
+              ],
+              "disabled": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "createSubCatalog": [
+    {
+      "id": "001",
+      "templateForm": [
+        {
+          "value": "",
+          "key": "startDate",
+          "label": "Fecha registro",
+          "required": false,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "calendar",
+          "type": "calendar",
+          "options": [],
+          "disabled": false
+        },
+        {
+          "value": "",
+          "key": "reference",
+          "label": "Referencia",
+          "required": true,
+          "min": 5,
+          "max": 8,
+          "email": false,
+          "regExp": null,
+          "controlType": "text",
+          "type": "text",
+          "options": [],
+          "disabled": false
+        },
+        {
+          "value": "",
+          "key": "concept",
+          "label": "Concepto",
+          "required": true,
+          "min": 5,
+          "max": 3,
+          "email": false,
+          "regExp": null,
+          "controlType": "text",
+          "type": "text",
+          "options": [],
+          "disabled": false
+        },
+        {
+          "value": "",
+          "key": "status",
+          "label": "Estatus",
+          "required": true,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "dropdown",
+          "type": "dropdown",
+          "disabled": false,
+          "options": [
+            {
+              "label": "Pagado",
+              "value": 1
+            },
+            {
+              "label": "Cancelado",
+              "value": 2
+            },
+            {
+              "label": "Revisión",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "value": "",
+          "key": "import",
+          "label": "Importe",
+          "required": true,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "text",
+          "type": "text",
+          "options": [],
+          "disabled": false
+        },
+        {
+          "value": "",
+          "key": "user",
+          "label": "Usuario",
+          "required": true,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "text",
+          "type": "text",
+          "options": [],
+          "disabled": false
+        },
+        {
+          "value": "",
+          "key": "branch",
+          "label": "Sucursal",
+          "required": true,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "text",
+          "type": "text",
+          "options": [],
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "id": "002",
+      "templateForm": [
+        {
+          "value": "",
+          "key": "reference",
+          "label": "Referencia",
+          "required": true,
+          "min": 5,
+          "max": 8,
+          "email": false,
+          "regExp": null,
+          "controlType": "text",
+          "type": "text",
+          "options": [],
+          "disabled": false
+        },
+        {
+          "value": "",
+          "key": "concept",
+          "label": "Concepto",
+          "required": true,
+          "min": 5,
+          "max": 3,
+          "email": false,
+          "regExp": null,
+          "controlType": "text",
+          "type": "text",
+          "options": [],
+          "disabled": false
+        },
+        {
+          "value": "",
+          "key": "status",
+          "label": "Estatus",
+          "required": true,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "dropdown",
+          "type": "dropdown",
+          "disabled": false,
+          "options": [
+            {
+              "label": "Pagado",
+              "value": 1
+            },
+            {
+              "label": "Cancelado",
+              "value": 2
+            },
+            {
+              "label": "Revisión",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "value": "",
+          "key": "import",
+          "label": "Importe",
+          "required": true,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "text",
+          "type": "text",
+          "options": [],
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "id": "003",
+      "templateForm": [
+        {
+          "value": "",
+          "key": "reference",
+          "label": "Referencia",
+          "required": true,
+          "min": 5,
+          "max": 8,
+          "email": false,
+          "regExp": null,
+          "controlType": "text",
+          "type": "text",
+          "options": [],
+          "disabled": false
+        },
+        {
+          "value": "",
+          "key": "concept",
+          "label": "Concepto",
+          "required": true,
+          "min": 5,
+          "max": 3,
+          "email": false,
+          "regExp": null,
+          "controlType": "text",
+          "type": "text",
+          "options": [],
+          "disabled": false
+        },
+        {
+          "value": "",
+          "key": "status",
+          "label": "Estatus",
+          "required": true,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "dropdown",
+          "type": "dropdown",
+          "disabled": false,
+          "options": [
+            {
+              "label": "Pagado",
+              "value": 1
+            },
+            {
+              "label": "Cancelado",
+              "value": 2
+            },
+            {
+              "label": "Revisión",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "value": "",
+          "key": "import",
+          "label": "Importe",
+          "required": true,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "text",
+          "type": "text",
+          "options": [],
+          "disabled": false
+        },
+        {
+          "value": "",
+          "key": "user",
+          "label": "Usuario",
+          "required": true,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "text",
+          "type": "text",
+          "options": [],
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "id": "004",
+      "templateForm": [
+        {
+          "value": "",
+          "key": "code",
+          "label": "Código",
+          "required": false,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "text",
+          "type": "text",
+          "options": [],
+          "disabled": false
+        },
+        {
+          "value": "",
+          "key": "zipCode",
+          "label": "Código postal",
+          "required": true,
+          "min": 5,
+          "max": 8,
+          "email": false,
+          "regExp": null,
+          "controlType": "number",
+          "type": "number",
+          "options": [],
+          "disabled": false
+        },
+        {
+          "value": "",
+          "key": "settlement",
+          "label": "Asentamiento",
+          "required": true,
+          "min": 5,
+          "max": 3,
+          "email": false,
+          "regExp": null,
+          "controlType": "text",
+          "type": "text",
+          "options": [],
+          "disabled": false
+        },
+        {
+          "value": "",
+          "key": "typeSettlement",
+          "label": "Tipo de asentamiento",
+          "required": true,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "dropdown",
+          "type": "dropdown",
+          "disabled": false,
+          "options": [
+            {
+              "label": "Colonia",
+              "value": 1
+            },
+            {
+              "label": "Fraccionamiento",
+              "value": 2
+            },
+            {
+              "label": "Unidad habitacional",
+              "value": 3
+            },
+            {
+              "label": "Pueblo",
+              "value": 4
+            },
+            {
+              "label": "Rancho",
+              "value": 5
+            }
+          ]
+        },
+        {
+          "value": "",
+          "key": "municipality",
+          "label": "Municipio",
+          "required": true,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "text",
+          "type": "text",
+          "options": [],
+          "disabled": false
+        },
+        {
+          "value": "",
+          "key": "state",
+          "label": "Estado",
+          "required": true,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "dropdown",
+          "type": "dropdown",
+          "options": [
+            {
+              "label": "Ciudad de México",
+              "value": 1
+            },
+            {
+              "label": "Rome",
+              "value": 2
+            },
+            {
+              "label": "London",
+              "value": 3
+            },
+            {
+              "label": "Istanbul",
+              "value": 4
+            },
+            {
+              "label": "Paris",
+              "value": 5
+            }
+          ],
+          "disabled": false
+        },
+        {
+          "value": "",
+          "key": "city",
+          "label": "Ciudad",
+          "required": true,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "dropdown",
+          "type": "dropdown",
+          "options": [
+            {
+              "label": "Ciudad de México",
+              "value": 1
+            },
+            {
+              "label": "Rome",
+              "value": 2
+            },
+            {
+              "label": "London",
+              "value": 3
+            },
+            {
+              "label": "Istanbul",
+              "value": 4
+            },
+            {
+              "label": "Paris",
+              "value": 5
+            }
+          ],
+          "disabled": false
+        },
+        {
+          "value": "",
+          "key": "zone",
+          "label": "Zona",
+          "required": true,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "text",
+          "type": "text",
+          "options": [],
+          "disabled": false
+        },
+        {
+          "value": "",
+          "key": "column",
+          "label": "Columna",
+          "required": true,
+          "min": 5,
+          "max": 3,
+          "email": false,
+          "regExp": null,
+          "controlType": "number",
+          "type": "number",
+          "options": [],
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "id": "005",
+      "templateForm": [
+        {
+          "value": "",
+          "key": "reference",
+          "label": "Referencia",
+          "required": true,
+          "min": 5,
+          "max": 8,
+          "email": false,
+          "regExp": null,
+          "controlType": "number",
+          "type": "number",
+          "options": [],
+          "disabled": false
+        },
+        {
+          "value": "",
+          "key": "concept",
+          "label": "Concepto",
+          "required": true,
+          "min": 5,
+          "max": 3,
+          "email": false,
+          "regExp": null,
+          "controlType": "text",
+          "type": "text",
+          "options": [],
+          "disabled": false
+        },
+        {
+          "value": "",
+          "key": "status",
+          "label": "Estatus",
+          "required": true,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "dropdown",
+          "type": "dropdown",
+          "disabled": false,
+          "options": [
+            {
+              "label": "Pagado",
+              "value": 1
+            },
+            {
+              "label": "Cancelado",
+              "value": 2
+            },
+            {
+              "label": "Revisión",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "value": "",
+          "key": "import",
+          "label": "Importe",
+          "required": true,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "text",
+          "type": "text",
+          "options": [],
+          "disabled": false
+        },
+        {
+          "value": "",
+          "key": "user",
+          "label": "Usuario",
+          "required": true,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "text",
+          "type": "text",
+          "options": [],
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "id": "006",
+      "templateForm": [
+        {
+          "value": "",
+          "key": "mcc",
+          "label": "MCC",
+          "required": false,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "text",
+          "type": "text",
+          "options": [],
+          "disabled": false
+        },
+        {
+          "value": "",
+          "key": "description",
+          "label": "Descripcion",
+          "required": true,
+          "min": 5,
+          "max": 8,
+          "email": false,
+          "regExp": null,
+          "controlType": "text",
+          "type": "text",
+          "options": [],
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "id": "007",
+      "templateForm": [
+        {
+          "value": "",
+          "key": "name",
+          "label": "Nombre",
+          "required": false,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "text",
+          "type": "text",
+          "options": [],
+          "disabled": false
+        },
+        {
+          "value": "",
+          "key": "registers",
+          "label": "Registros",
+          "required": true,
+          "min": 5,
+          "max": 8,
+          "email": false,
+          "regExp": null,
+          "controlType": "text",
+          "type": "text",
+          "options": [],
+          "disabled": false
+        },
+        {
+          "value": "",
+          "key": "productsOf",
+          "label": "Productos",
+          "required": true,
+          "min": 5,
+          "max": 3,
+          "email": false,
+          "regExp": null,
+          "controlType": "text",
+          "type": "text",
+          "options": [],
+          "disabled": false
+        },
+        {
+          "value": "",
+          "key": "creationDate",
+          "label": "Fecha de creación",
+          "required": true,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "calendar",
+          "type": "calendar",
+          "disabled": false,
+          "options": []
+        },
+        {
+          "value": "",
+          "key": "lastModificationDate",
+          "label": "Fecha de última modificación",
+          "required": true,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "calendar",
+          "type": "calendar",
+          "options": [],
+          "disabled": false
+        },
+        {
+          "value": "",
+          "key": "status",
+          "label": "Estatus",
+          "required": true,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "dropdown",
+          "type": "dropdown",
+          "options": [
+            {
+              "label": "Activo",
+              "value": 1
+            },
+            {
+              "label": "Inactivo",
+              "value": 2
+            }
+          ],
+          "disabled": false
+        },
+        {
+          "value": "",
+          "key": "phone",
+          "label": "Teléfono",
+          "required": false,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "number",
+          "type": "phone",
+          "options": [],
+          "disabled": false
+        },
+        {
+          "value": "",
+          "key": "description",
+          "label": "Descripción",
+          "required": false,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "textarea",
+          "type": "textarea",
+          "options": [],
+          "disabled": false
+        },
+        {
+          "value": "",
+          "key": "products",
+          "label": "Productos",
+          "required": false,
+          "min": null,
+          "max": null,
+          "email": false,
+          "regExp": null,
+          "controlType": "multiselect",
+          "type": "multiselect",
+          "options": [
+            {
+              "label": "Financiera",
+              "value": 1
+            },
+            {
+              "label": "Gerencia",
+              "value": 2
+            },
+            {
+              "label": "Operaciones",
+              "value": 3
+            }
+          ],
+          "disabled": false
+        }
+      ]
+    }
+  ]
+}
